@@ -1,75 +1,31 @@
 export default {
-  "title": "Docs",
-  "tagline": "The tagline of my site",
+  "title": "Oleic Documentation",
+  "tagline": "Your go-to guides for understanding Oleic a little better",
   "url": "https://your-docusaurus-test-site.com",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
-  "favicon": "img/favicon.ico",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "favicon": "src/oleic-fav.ico",
+  "organizationName": "Oleic",
+  "projectName": "oleicverse",
   "themeConfig": {
     "navbar": {
-      "title": "Docs",
+      "title": "",
       "logo": {
-        "alt": "My Site Logo",
-        "src": "img/logo.svg"
+        "alt": "Oleic logo",
+        "src": "https://oleic-media.s3.amazonaws.com/oleic+docs.png"
       },
       "items": [],
       "hideOnScroll": false
     },
     "footer": {
       "style": "light",
-      "links": [
-        {
-          "title": "Docs",
-          "items": [
-            {
-              "label": "Style Guide",
-              "to": "docs/"
-            },
-            {
-              "label": "Second Doc",
-              "to": "docs/doc2/"
-            }
-          ]
-        },
-        {
-          "title": "Community",
-          "items": [
-            {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
-            },
-            {
-              "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
-            }
-          ]
-        },
-        {
-          "title": "More",
-          "items": [
-            {
-              "label": "Blog",
-              "to": "blog"
-            },
-            {
-              "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
-            }
-          ]
-        }
-      ],
-      "copyright": "Copyright © 2021 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2021 Oleic Technologies",
+      "links": []
     },
     "colorMode": {
       "defaultMode": "light",
-      "disableSwitch": false,
+      "disableSwitch": true,
       "respectPrefersColorScheme": false,
       "switchConfig": {
         "darkIcon": "🌜",

@@ -1,19 +1,19 @@
 module.exports = {
-  title: 'Docs',
+  title: 'Oleic Documentation',
   tagline: 'The tagline of my site',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  favicon: 'src/oleic-fav.ico',
+  organizationName: 'Oleic', // Usually your GitHub org/user name.
+  projectName: 'oleicverse', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Docs',
+      title: '',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Oleic logo',
+        src: 'https://oleic-media.s3.amazonaws.com/oleic+docs.png',
       },
       items: [
         
@@ -21,7 +21,7 @@ module.exports = {
     },
     footer: {
       style: 'light',
-      links: [
+      /* links: [
         {
           title: 'Docs',
           items: [
@@ -65,8 +65,8 @@ module.exports = {
             },
           ],
         },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      ], */
+      copyright: `Copyright © ${new Date().getFullYear()} Oleic Technologies`,
     },
   },
   presets: [

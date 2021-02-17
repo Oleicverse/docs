@@ -1,0 +1,12 @@
+{
+  "unversionedId": "import-articles",
+  "id": "import-articles",
+  "isDocsHomePage": false,
+  "title": "Import Articles",
+  "description": "---",
+  "source": "@site/docs/import-articles.md",
+  "slug": "/import-articles",
+  "permalink": "/docs/import-articles",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/import-articles.md",
+  "version": "current"
+}

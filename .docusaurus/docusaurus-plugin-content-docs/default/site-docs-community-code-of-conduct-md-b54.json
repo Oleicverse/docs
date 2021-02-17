@@ -1,0 +1,12 @@
+{
+  "unversionedId": "community-code-of-conduct",
+  "id": "community-code-of-conduct",
+  "isDocsHomePage": false,
+  "title": "Community Code of Conduct",
+  "description": "About",
+  "source": "@site/docs/community-code-of-conduct.md",
+  "slug": "/community-code-of-conduct",
+  "permalink": "/docs/community-code-of-conduct",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/community-code-of-conduct.md",
+  "version": "current"
+}

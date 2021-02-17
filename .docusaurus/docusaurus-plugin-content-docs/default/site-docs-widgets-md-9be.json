@@ -1,0 +1,12 @@
+{
+  "unversionedId": "widgets",
+  "id": "widgets",
+  "isDocsHomePage": false,
+  "title": "Widgets",
+  "description": "Widgets are regular embeds that can be inserted anywhere in your articles. This feature allows you to embed any third party widget (embeds/iframes outside the (embeds we support by default) inside your articles with no limitations.",
+  "source": "@site/docs/widgets.md",
+  "slug": "/widgets",
+  "permalink": "/docs/widgets",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/widgets.md",
+  "version": "current"
+}

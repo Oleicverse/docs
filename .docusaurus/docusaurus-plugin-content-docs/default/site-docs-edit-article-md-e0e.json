@@ -1,0 +1,12 @@
+{
+  "unversionedId": "edit-article",
+  "id": "edit-article",
+  "isDocsHomePage": false,
+  "title": "Edit Published Article",
+  "description": "Here is how to edit a published article on Hashnode:",
+  "source": "@site/docs/edit-article.md",
+  "slug": "/edit-article",
+  "permalink": "/docs/edit-article",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/edit-article.md",
+  "version": "current"
+}

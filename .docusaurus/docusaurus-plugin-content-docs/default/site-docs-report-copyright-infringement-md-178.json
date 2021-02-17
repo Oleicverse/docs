@@ -1,0 +1,12 @@
+{
+  "unversionedId": "report-copyright-infringement",
+  "id": "report-copyright-infringement",
+  "isDocsHomePage": false,
+  "title": "Report Copyright Infringement",
+  "description": "To report a copyright infringement, kindly send us an email with your report request at hello@hashnode.com.",
+  "source": "@site/docs/report-copyright-infringement.md",
+  "slug": "/report-copyright-infringement",
+  "permalink": "/docs/report-copyright-infringement",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/report-copyright-infringement.md",
+  "version": "current"
+}

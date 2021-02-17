@@ -1,0 +1,12 @@
+{
+  "unversionedId": "report-posts-and-users",
+  "id": "report-posts-and-users",
+  "isDocsHomePage": false,
+  "title": "Report Posts and Users",
+  "description": "Here is how to report an article or user on Hashnode:",
+  "source": "@site/docs/report-posts-and-users.md",
+  "slug": "/report-posts-and-users",
+  "permalink": "/docs/report-posts-and-users",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/report-posts-and-users.md",
+  "version": "current"
+}

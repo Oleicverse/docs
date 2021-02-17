@@ -1,0 +1,12 @@
+{
+  "unversionedId": "hashnode-glossary",
+  "id": "hashnode-glossary",
+  "isDocsHomePage": false,
+  "title": "Hashnode Glossary",
+  "description": "Reaction",
+  "source": "@site/docs/hashnode-glossary.md",
+  "slug": "/hashnode-glossary",
+  "permalink": "/docs/hashnode-glossary",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/hashnode-glossary.md",
+  "version": "current"
+}

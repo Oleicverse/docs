@@ -1,0 +1,12 @@
+{
+  "unversionedId": "create-personal-blog",
+  "id": "create-personal-blog",
+  "isDocsHomePage": false,
+  "title": "Create Personal Blog",
+  "description": "Before creating a personal blog, here are some prerequisites needed:",
+  "source": "@site/docs/create-personal-blog.md",
+  "slug": "/create-personal-blog",
+  "permalink": "/docs/create-personal-blog",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/create-personal-blog.md",
+  "version": "current"
+}

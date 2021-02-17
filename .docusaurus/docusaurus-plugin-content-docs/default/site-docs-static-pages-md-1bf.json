@@ -1,0 +1,12 @@
+{
+  "unversionedId": "static-pages",
+  "id": "static-pages",
+  "isDocsHomePage": false,
+  "title": "Static Pages",
+  "description": "With our Static Pages feature, you can create extra pages and routes (e.g., /about) for your blog.",
+  "source": "@site/docs/static-pages.md",
+  "slug": "/static-pages",
+  "permalink": "/docs/static-pages",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/static-pages.md",
+  "version": "current"
+}

@@ -1,0 +1,770 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/docs",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/curie/Oleic/Oleic Phase 2/docs/sidebars.js",
+          "docsDirPath": "/Users/curie/Oleic/Oleic Phase 2/docs/docs",
+          "docsDirPathLocalized": "/Users/curie/Oleic/Oleic Phase 2/docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "mainDocId": "doc1",
+          "sidebars": {
+            "someSidebar": [
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Docusaurus",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "doc1"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "doc2"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "doc3"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Features",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "mdx"
+                  }
+                ]
+              }
+            ]
+          },
+          "permalinkToSidebar": {
+            "/docs/": "someSidebar",
+            "/docs/doc2": "someSidebar",
+            "/docs/doc3": "someSidebar",
+            "/docs/mdx": "someSidebar"
+          },
+          "docs": [
+            {
+              "unversionedId": "account-settings",
+              "id": "account-settings",
+              "isDocsHomePage": false,
+              "title": "Update Profile Page",
+              "description": "Here is how to update your profile page on Hashnode:",
+              "source": "@site/docs/account-settings.md",
+              "slug": "/account-settings",
+              "permalink": "/docs/account-settings",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/account-settings.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "analytics",
+              "id": "analytics",
+              "isDocsHomePage": false,
+              "title": "Analytics",
+              "description": "Hashnode's analytics feature allows you to monitor your blog's performance via a visual representation alongside statistics for your articles.",
+              "source": "@site/docs/analytics.md",
+              "slug": "/analytics",
+              "permalink": "/docs/analytics",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/analytics.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "appearance",
+              "id": "appearance",
+              "isDocsHomePage": false,
+              "title": "Appearance",
+              "description": "You can customize your blog's look, feel, and layout by adding colors and images to change your blog's appearance.",
+              "source": "@site/docs/appearance.md",
+              "slug": "/appearance",
+              "permalink": "/docs/appearance",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/appearance.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "bug-reports-and-feature-request",
+              "id": "bug-reports-and-feature-request",
+              "isDocsHomePage": false,
+              "title": "Bug Report and Feature Requests",
+              "description": "Please help us build a better community for you. Submit a new feature suggestion or bug.",
+              "source": "@site/docs/bug-reports-and-feature-request.md",
+              "slug": "/bug-reports-and-feature-request",
+              "permalink": "/docs/bug-reports-and-feature-request",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/bug-reports-and-feature-request.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "change-log",
+              "id": "change-log",
+              "isDocsHomePage": false,
+              "title": "Changelog",
+              "description": "Hashnode changelog keeps you updated on the changes made on Hashnode regularly. It includes records of changes such as bug fixes, new features, feature upgrades, why we made the changes, and how these changes will improve your experience with Hashnode for you.",
+              "source": "@site/docs/change-log.md",
+              "slug": "/change-log",
+              "permalink": "/docs/change-log",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/change-log.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "community-code-of-conduct",
+              "id": "community-code-of-conduct",
+              "isDocsHomePage": false,
+              "title": "Community Code of Conduct",
+              "description": "About",
+              "source": "@site/docs/community-code-of-conduct.md",
+              "slug": "/community-code-of-conduct",
+              "permalink": "/docs/community-code-of-conduct",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/community-code-of-conduct.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "contact-support",
+              "id": "contact-support",
+              "isDocsHomePage": false,
+              "title": "Contact Support",
+              "description": "Need help? Kindly reach out via the mediums below; our support team is here to attend to your needs, requests, questions, and concerns.",
+              "source": "@site/docs/contact-support.md",
+              "slug": "/contact-support",
+              "permalink": "/docs/contact-support",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/contact-support.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "cover-photo",
+              "id": "cover-photo",
+              "isDocsHomePage": false,
+              "title": "Cover Photo",
+              "description": "In the Hashnode editor, click on the Upload an image button to upload a cover photo for your article (with recommended dimensions of 1200px width and 630px height) in the Article Cover section at the top-right sidebar of the editor on your desktop or bottom corner of the editor on your mobile screen.",
+              "source": "@site/docs/cover-photo.md",
+              "slug": "/cover-photo",
+              "permalink": "/docs/cover-photo",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/cover-photo.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "create-personal-blog",
+              "id": "create-personal-blog",
+              "isDocsHomePage": false,
+              "title": "Create Personal Blog",
+              "description": "Before creating a personal blog, here are some prerequisites needed:",
+              "source": "@site/docs/create-personal-blog.md",
+              "slug": "/create-personal-blog",
+              "permalink": "/docs/create-personal-blog",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/create-personal-blog.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "create-team-blog",
+              "id": "create-team-blog",
+              "isDocsHomePage": false,
+              "title": "Create Team Blog",
+              "description": "The Team Blog feature is currently in beta (ongoing testing/improvements), and is not available publicly to all Hashnode users, and will become a paid feature soon.",
+              "source": "@site/docs/create-team-blog.md",
+              "slug": "/create-team-blog",
+              "permalink": "/docs/create-team-blog",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/create-team-blog.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "doc1",
+              "id": "doc1",
+              "isDocsHomePage": false,
+              "title": "Style Guide",
+              "description": "You can write content using GitHub-flavored Markdown syntax.",
+              "source": "@site/docs/doc1.md",
+              "slug": "/",
+              "permalink": "/docs/",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/doc1.md",
+              "version": "current",
+              "sidebar_label": "Style Guide",
+              "sidebar": "someSidebar",
+              "next": {
+                "title": "Document Number 2",
+                "permalink": "/docs/doc2"
+              }
+            },
+            {
+              "unversionedId": "doc2",
+              "id": "doc2",
+              "isDocsHomePage": false,
+              "title": "Document Number 2",
+              "description": "This is a link to another document. This is a link to an external page.",
+              "source": "@site/docs/doc2.md",
+              "slug": "/doc2",
+              "permalink": "/docs/doc2",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/doc2.md",
+              "version": "current",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Style Guide",
+                "permalink": "/docs/"
+              },
+              "next": {
+                "title": "This is Document Number 3",
+                "permalink": "/docs/doc3"
+              }
+            },
+            {
+              "unversionedId": "doc3",
+              "id": "doc3",
+              "isDocsHomePage": false,
+              "title": "This is Document Number 3",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "source": "@site/docs/doc3.md",
+              "slug": "/doc3",
+              "permalink": "/docs/doc3",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/doc3.md",
+              "version": "current",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Document Number 2",
+                "permalink": "/docs/doc2"
+              },
+              "next": {
+                "title": "Powered by MDX",
+                "permalink": "/docs/mdx"
+              }
+            },
+            {
+              "unversionedId": "drafts",
+              "id": "drafts",
+              "isDocsHomePage": false,
+              "title": "Drafts",
+              "description": "When you start writing using Hashnode's editor, we automatically save your unpublished articles as drafts and update them once you make a change.",
+              "source": "@site/docs/drafts.md",
+              "slug": "/drafts",
+              "permalink": "/docs/drafts",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/drafts.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "edit-article",
+              "id": "edit-article",
+              "isDocsHomePage": false,
+              "title": "Edit Published Article",
+              "description": "Here is how to edit a published article on Hashnode:",
+              "source": "@site/docs/edit-article.md",
+              "slug": "/edit-article",
+              "permalink": "/docs/edit-article",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/edit-article.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "edit-drafts",
+              "id": "edit-drafts",
+              "isDocsHomePage": false,
+              "title": "Edit Drafts",
+              "description": "Here is how to find and edit a draft on Hashnode:",
+              "source": "@site/docs/edit-drafts.md",
+              "slug": "/edit-drafts",
+              "permalink": "/docs/edit-drafts",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/edit-drafts.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "edit-slug",
+              "id": "edit-slug",
+              "isDocsHomePage": false,
+              "title": "Edit Article Slug",
+              "description": "Here is how to edit the slug of a published article:",
+              "source": "@site/docs/edit-slug.md",
+              "slug": "/edit-slug",
+              "permalink": "/docs/edit-slug",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/edit-slug.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "edit-url-type",
+              "id": "edit-url-type",
+              "isDocsHomePage": false,
+              "title": "Edit Articles URL Type",
+              "description": "Suppose you created your Hashnode blog before mid-August 2020. In that case, it means your articles use the Legacy URL pattern, where a Collision Resistant Unique Identifier (CUID) is attached to the end of the URL of all your articles on your blog.",
+              "source": "@site/docs/edit-url-type.md",
+              "slug": "/edit-url-type",
+              "permalink": "/docs/edit-url-type",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/edit-url-type.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "embeds",
+              "id": "embeds",
+              "isDocsHomePage": false,
+              "title": "Embeds",
+              "description": "Hashnode supports the following embeds:",
+              "source": "@site/docs/embeds.md",
+              "slug": "/embeds",
+              "permalink": "/docs/embeds",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/embeds.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "export-articles",
+              "id": "export-articles",
+              "isDocsHomePage": false,
+              "title": "Export Articles",
+              "description": "Here is how to download all your articles in JSON format:",
+              "source": "@site/docs/export-articles.md",
+              "slug": "/export-articles",
+              "permalink": "/docs/export-articles",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/export-articles.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "faqs",
+              "id": "faqs",
+              "isDocsHomePage": false,
+              "title": "Frequently Asked Questions",
+              "description": "Find below frequently asked questions about Hashnode:",
+              "source": "@site/docs/faqs.md",
+              "slug": "/faqs",
+              "permalink": "/docs/faqs",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/faqs.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "general-settings",
+              "id": "general-settings",
+              "isDocsHomePage": false,
+              "title": "General Settings",
+              "description": "Here is how to update the general settings of your blog:",
+              "source": "@site/docs/general-settings.md",
+              "slug": "/general-settings",
+              "permalink": "/docs/general-settings",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/general-settings.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "github-backup",
+              "id": "github-backup",
+              "isDocsHomePage": false,
+              "title": "Auto GitHub Backups",
+              "description": "You can automatically backup your published posts as markdown files to a public or private repository on GitHub. Backups are also updated automatically upon any edit or delete change.",
+              "source": "@site/docs/github-backup.md",
+              "slug": "/github-backup",
+              "permalink": "/docs/github-backup",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/github-backup.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "hashnode-glossary",
+              "id": "hashnode-glossary",
+              "isDocsHomePage": false,
+              "title": "Hashnode Glossary",
+              "description": "Reaction",
+              "source": "@site/docs/hashnode-glossary.md",
+              "slug": "/hashnode-glossary",
+              "permalink": "/docs/hashnode-glossary",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/hashnode-glossary.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "import-articles",
+              "id": "import-articles",
+              "isDocsHomePage": false,
+              "title": "Import Articles",
+              "description": "---",
+              "source": "@site/docs/import-articles.md",
+              "slug": "/import-articles",
+              "permalink": "/docs/import-articles",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/import-articles.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "integrations",
+              "id": "integrations",
+              "isDocsHomePage": false,
+              "title": "Integrations",
+              "description": "You can add third-party integrations like Google Analytics and Web Monetization Payment to your blog.",
+              "source": "@site/docs/integrations.md",
+              "slug": "/integrations",
+              "permalink": "/docs/integrations",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/integrations.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "mapping-cloudflare",
+              "id": "mapping-cloudflare",
+              "isDocsHomePage": false,
+              "title": "Mapping Domain From Cloudflare",
+              "description": "Cloudflare is a free CDN that protects against threats such as SQL injection and identity theft. It improves site performance and speeds up loading times by using multiple data centers that are located around the world.",
+              "source": "@site/docs/mapping-cloudflare.md",
+              "slug": "/mapping-cloudflare",
+              "permalink": "/docs/mapping-cloudflare",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/mapping-cloudflare.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "mapping-domain",
+              "id": "mapping-domain",
+              "isDocsHomePage": false,
+              "title": "Setup Custom Domain",
+              "description": "When you create your Hashnode blog, we provide a free yourdomain.hashnode.dev subdomain for you. However, you can set up your own yourdomain.tld domain or blog.yourdomain.tld subdomain to your Hashnode blog.",
+              "source": "@site/docs/mapping-domain.md",
+              "slug": "/mapping-domain",
+              "permalink": "/docs/mapping-domain",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/mapping-domain.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "mapping-domain-faqs",
+              "id": "mapping-domain-faqs",
+              "isDocsHomePage": false,
+              "title": "Mapping to Custom Domain FAQs",
+              "description": "Find below frequently asked questions about mapping a custom domain to Hashnode:",
+              "source": "@site/docs/mapping-domain-faqs.md",
+              "slug": "/mapping-domain-faqs",
+              "permalink": "/docs/mapping-domain-faqs",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/mapping-domain-faqs.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "mapping-godaddy",
+              "id": "mapping-godaddy",
+              "isDocsHomePage": false,
+              "title": "Mapping Domain from GoDaddy",
+              "description": "This section covers how to map a domain hosted or purchased on GoDaddy to Hashnode.",
+              "source": "@site/docs/mapping-godaddy.md",
+              "slug": "/mapping-godaddy",
+              "permalink": "/docs/mapping-godaddy",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/mapping-godaddy.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "mapping-namecheap",
+              "id": "mapping-namecheap",
+              "isDocsHomePage": false,
+              "title": "Mapping Domain from Namecheap",
+              "description": "This section covers how to map a domain hosted or purchased on Namecheap to Hashnode.",
+              "source": "@site/docs/mapping-namecheap.md",
+              "slug": "/mapping-namecheap",
+              "permalink": "/docs/mapping-namecheap",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/mapping-namecheap.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "markdown-guidelines",
+              "id": "markdown-guidelines",
+              "isDocsHomePage": false,
+              "title": "Markdown Guidelines",
+              "description": "Hashnode's Editor supports simple markdown and some unique tags for embeds.",
+              "source": "@site/docs/markdown-guidelines.md",
+              "slug": "/markdown-guidelines",
+              "permalink": "/docs/markdown-guidelines",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/markdown-guidelines.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "mdx",
+              "id": "mdx",
+              "isDocsHomePage": false,
+              "title": "Powered by MDX",
+              "description": "You can write JSX and use React components within your Markdown thanks to MDX.",
+              "source": "@site/docs/mdx.md",
+              "slug": "/mdx",
+              "permalink": "/docs/mdx",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/mdx.md",
+              "version": "current",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "This is Document Number 3",
+                "permalink": "/docs/doc3"
+              }
+            },
+            {
+              "unversionedId": "newsletter",
+              "id": "newsletter",
+              "isDocsHomePage": false,
+              "title": "Newsletter",
+              "description": "You can build your subscribers base with our inbuilt newsletter system, allowing your readers to subscribe to your blog.",
+              "source": "@site/docs/newsletter.md",
+              "slug": "/newsletter",
+              "permalink": "/docs/newsletter",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/newsletter.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "report-copyright-infringement",
+              "id": "report-copyright-infringement",
+              "isDocsHomePage": false,
+              "title": "Report Copyright Infringement",
+              "description": "To report a copyright infringement, kindly send us an email with your report request at hello@hashnode.com.",
+              "source": "@site/docs/report-copyright-infringement.md",
+              "slug": "/report-copyright-infringement",
+              "permalink": "/docs/report-copyright-infringement",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/report-copyright-infringement.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "report-posts-and-users",
+              "id": "report-posts-and-users",
+              "isDocsHomePage": false,
+              "title": "Report Posts and Users",
+              "description": "Here is how to report an article or user on Hashnode:",
+              "source": "@site/docs/report-posts-and-users.md",
+              "slug": "/report-posts-and-users",
+              "permalink": "/docs/report-posts-and-users",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/report-posts-and-users.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "seo",
+              "id": "seo",
+              "isDocsHomePage": false,
+              "title": "SEO",
+              "description": "When you create a blog on Hashnode, you have total control over your blog's SEO. You can customize your meta tags, add keywords, automatically generate sitemaps, add your blog to search engines, and optimize your SEO presence.",
+              "source": "@site/docs/seo.md",
+              "slug": "/seo",
+              "permalink": "/docs/seo",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/seo.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "static-pages",
+              "id": "static-pages",
+              "isDocsHomePage": false,
+              "title": "Static Pages",
+              "description": "With our Static Pages feature, you can create extra pages and routes (e.g., /about) for your blog.",
+              "source": "@site/docs/static-pages.md",
+              "slug": "/static-pages",
+              "permalink": "/docs/static-pages",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/static-pages.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "tags",
+              "id": "tags",
+              "isDocsHomePage": false,
+              "title": "Tags",
+              "description": "In the Hashnode editor, start typing in the text field to select some tags in the Select tags section at the editor's top-right sidebar on your desktop or bottom corner of the editor on your mobile screen.",
+              "source": "@site/docs/tags.md",
+              "slug": "/tags",
+              "permalink": "/docs/tags",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tags.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "teams-blog-settings",
+              "id": "teams-blog-settings",
+              "isDocsHomePage": false,
+              "title": "Team Blog Settings",
+              "description": "Add New Members",
+              "source": "@site/docs/teams-blog-settings.md",
+              "slug": "/teams-blog-settings",
+              "permalink": "/docs/teams-blog-settings",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/teams-blog-settings.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "using-hashnode",
+              "id": "using-hashnode",
+              "isDocsHomePage": false,
+              "title": "Using Hashnode",
+              "description": "Hashnode is a free developer blogging platform that allows you to publish articles on your domain and helps you stay connected with a global developer community.",
+              "source": "@site/docs/using-hashnode.md",
+              "slug": "/",
+              "permalink": "/docs/",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/using-hashnode.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "widgets",
+              "id": "widgets",
+              "isDocsHomePage": false,
+              "title": "Widgets",
+              "description": "Widgets are regular embeds that can be inserted anywhere in your articles. This feature allows you to embed any third party widget (embeds/iframes outside the (embeds we support by default) inside your articles with no limitations.",
+              "source": "@site/docs/widgets.md",
+              "slug": "/widgets",
+              "permalink": "/docs/widgets",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/widgets.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "write-an-article",
+              "id": "write-an-article",
+              "isDocsHomePage": false,
+              "title": "Write an Article",
+              "description": "Here is how to write a post on Hashnode:",
+              "source": "@site/docs/write-an-article.md",
+              "slug": "/write-an-article",
+              "permalink": "/docs/write-an-article",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/write-an-article.md",
+              "version": "current"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogPosts": [
+        {
+          "id": "welcome",
+          "metadata": {
+            "permalink": "/blog/welcome",
+            "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2019-05-30-welcome.md",
+            "source": "@site/blog/2019-05-30-welcome.md",
+            "description": "Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!",
+            "date": "2019-05-30T00:00:00.000Z",
+            "tags": [
+              {
+                "label": "facebook",
+                "permalink": "/blog/tags/facebook"
+              },
+              {
+                "label": "hello",
+                "permalink": "/blog/tags/hello"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "title": "Welcome",
+            "readingTime": 0.175,
+            "truncated": false,
+            "nextItem": {
+              "title": "Hello",
+              "permalink": "/blog/hello-world"
+            }
+          }
+        },
+        {
+          "id": "hello-world",
+          "metadata": {
+            "permalink": "/blog/hello-world",
+            "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2019-05-29-hello-world.md",
+            "source": "@site/blog/2019-05-29-hello-world.md",
+            "description": "Welcome to this blog. This blog is created with Docusaurus 2 alpha.",
+            "date": "2019-05-29T00:00:00.000Z",
+            "tags": [
+              {
+                "label": "hello",
+                "permalink": "/blog/tags/hello"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "title": "Hello",
+            "readingTime": 0.12,
+            "truncated": true,
+            "prevItem": {
+              "title": "Welcome",
+              "permalink": "/blog/welcome"
+            },
+            "nextItem": {
+              "title": "Hola",
+              "permalink": "/blog/hola"
+            }
+          }
+        },
+        {
+          "id": "hola",
+          "metadata": {
+            "permalink": "/blog/hola",
+            "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2019-05-28-hola.md",
+            "source": "@site/blog/2019-05-28-hola.md",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
+            "date": "2019-05-28T00:00:00.000Z",
+            "tags": [
+              {
+                "label": "hola",
+                "permalink": "/blog/tags/hola"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "title": "Hola",
+            "readingTime": 0.12,
+            "truncated": false,
+            "prevItem": {
+              "title": "Hello",
+              "permalink": "/blog/hello-world"
+            }
+          }
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 3,
+            "previousPage": null,
+            "nextPage": null,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          },
+          "items": [
+            "welcome",
+            "hello-world",
+            "hola"
+          ]
+        }
+      ],
+      "blogTags": {
+        "facebook": {
+          "name": "facebook",
+          "items": [
+            "welcome"
+          ],
+          "permalink": "/blog/tags/facebook"
+        },
+        "hello": {
+          "name": "hello",
+          "items": [
+            "welcome",
+            "hello-world"
+          ],
+          "permalink": "/blog/tags/hello"
+        },
+        "docusaurus": {
+          "name": "docusaurus",
+          "items": [
+            "welcome",
+            "hello-world",
+            "hola"
+          ],
+          "permalink": "/blog/tags/docusaurus"
+        },
+        "hola": {
+          "name": "hola",
+          "items": [
+            "hola"
+          ],
+          "permalink": "/blog/tags/hola"
+        }
+      },
+      "blogTagsListPath": "/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {
+    "default": null
+  },
+  "docusaurus-theme-classic": {
+    "default": null
+  }
+}

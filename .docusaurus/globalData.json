@@ -1,0 +1,194 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "doc1",
+          "docs": [
+            {
+              "id": "account-settings",
+              "path": "/docs/account-settings"
+            },
+            {
+              "id": "analytics",
+              "path": "/docs/analytics"
+            },
+            {
+              "id": "appearance",
+              "path": "/docs/appearance"
+            },
+            {
+              "id": "bug-reports-and-feature-request",
+              "path": "/docs/bug-reports-and-feature-request"
+            },
+            {
+              "id": "change-log",
+              "path": "/docs/change-log"
+            },
+            {
+              "id": "community-code-of-conduct",
+              "path": "/docs/community-code-of-conduct"
+            },
+            {
+              "id": "contact-support",
+              "path": "/docs/contact-support"
+            },
+            {
+              "id": "cover-photo",
+              "path": "/docs/cover-photo"
+            },
+            {
+              "id": "create-personal-blog",
+              "path": "/docs/create-personal-blog"
+            },
+            {
+              "id": "create-team-blog",
+              "path": "/docs/create-team-blog"
+            },
+            {
+              "id": "doc1",
+              "path": "/docs/",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "doc2",
+              "path": "/docs/doc2",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "doc3",
+              "path": "/docs/doc3",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "drafts",
+              "path": "/docs/drafts"
+            },
+            {
+              "id": "edit-article",
+              "path": "/docs/edit-article"
+            },
+            {
+              "id": "edit-drafts",
+              "path": "/docs/edit-drafts"
+            },
+            {
+              "id": "edit-slug",
+              "path": "/docs/edit-slug"
+            },
+            {
+              "id": "edit-url-type",
+              "path": "/docs/edit-url-type"
+            },
+            {
+              "id": "embeds",
+              "path": "/docs/embeds"
+            },
+            {
+              "id": "export-articles",
+              "path": "/docs/export-articles"
+            },
+            {
+              "id": "faqs",
+              "path": "/docs/faqs"
+            },
+            {
+              "id": "general-settings",
+              "path": "/docs/general-settings"
+            },
+            {
+              "id": "github-backup",
+              "path": "/docs/github-backup"
+            },
+            {
+              "id": "hashnode-glossary",
+              "path": "/docs/hashnode-glossary"
+            },
+            {
+              "id": "import-articles",
+              "path": "/docs/import-articles"
+            },
+            {
+              "id": "integrations",
+              "path": "/docs/integrations"
+            },
+            {
+              "id": "mapping-cloudflare",
+              "path": "/docs/mapping-cloudflare"
+            },
+            {
+              "id": "mapping-domain",
+              "path": "/docs/mapping-domain"
+            },
+            {
+              "id": "mapping-domain-faqs",
+              "path": "/docs/mapping-domain-faqs"
+            },
+            {
+              "id": "mapping-godaddy",
+              "path": "/docs/mapping-godaddy"
+            },
+            {
+              "id": "mapping-namecheap",
+              "path": "/docs/mapping-namecheap"
+            },
+            {
+              "id": "markdown-guidelines",
+              "path": "/docs/markdown-guidelines"
+            },
+            {
+              "id": "mdx",
+              "path": "/docs/mdx",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "newsletter",
+              "path": "/docs/newsletter"
+            },
+            {
+              "id": "report-copyright-infringement",
+              "path": "/docs/report-copyright-infringement"
+            },
+            {
+              "id": "report-posts-and-users",
+              "path": "/docs/report-posts-and-users"
+            },
+            {
+              "id": "seo",
+              "path": "/docs/seo"
+            },
+            {
+              "id": "static-pages",
+              "path": "/docs/static-pages"
+            },
+            {
+              "id": "tags",
+              "path": "/docs/tags"
+            },
+            {
+              "id": "teams-blog-settings",
+              "path": "/docs/teams-blog-settings"
+            },
+            {
+              "id": "using-hashnode",
+              "path": "/docs/"
+            },
+            {
+              "id": "widgets",
+              "path": "/docs/widgets"
+            },
+            {
+              "id": "write-an-article",
+              "path": "/docs/write-an-article"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

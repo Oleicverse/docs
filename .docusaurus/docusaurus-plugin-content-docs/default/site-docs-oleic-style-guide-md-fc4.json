@@ -1,0 +1,12 @@
+{
+  "unversionedId": "oleic-style-guide",
+  "id": "oleic-style-guide",
+  "isDocsHomePage": false,
+  "title": "Style Guidelines",
+  "description": "Every internal project and major open-source project has its own style guide: a set of conventions (sometimes arbitrary) about how to write code for that project. It is much easier to understand a large codebase when all the code in it is in a consistent style.",
+  "source": "@site/docs/oleic-style-guide.md",
+  "slug": "/oleic-style-guide",
+  "permalink": "/docs/oleic-style-guide",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/oleic-style-guide.md",
+  "version": "current"
+}

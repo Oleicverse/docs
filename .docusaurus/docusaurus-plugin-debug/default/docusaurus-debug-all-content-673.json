@@ -54,30 +54,6 @@
           },
           "docs": [
             {
-              "unversionedId": "account-settings",
-              "id": "account-settings",
-              "isDocsHomePage": false,
-              "title": "Update Profile Page",
-              "description": "Here is how to update your profile page on Hashnode:",
-              "source": "@site/docs/account-settings.md",
-              "slug": "/account-settings",
-              "permalink": "/docs/account-settings",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/account-settings.md",
-              "version": "current"
-            },
-            {
-              "unversionedId": "analytics",
-              "id": "analytics",
-              "isDocsHomePage": false,
-              "title": "Analytics",
-              "description": "Hashnode's analytics feature allows you to monitor your blog's performance via a visual representation alongside statistics for your articles.",
-              "source": "@site/docs/analytics.md",
-              "slug": "/analytics",
-              "permalink": "/docs/analytics",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/analytics.md",
-              "version": "current"
-            },
-            {
               "unversionedId": "appearance",
               "id": "appearance",
               "isDocsHomePage": false,
@@ -488,6 +464,30 @@
               "slug": "/newsletter",
               "permalink": "/docs/newsletter",
               "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/newsletter.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "oleic-style-guide",
+              "id": "oleic-style-guide",
+              "isDocsHomePage": false,
+              "title": "Style Guidelines",
+              "description": "Every internal project and major open-source project has its own style guide: a set of conventions (sometimes arbitrary) about how to write code for that project. It is much easier to understand a large codebase when all the code in it is in a consistent style.",
+              "source": "@site/docs/oleic-style-guide.md",
+              "slug": "/oleic-style-guide",
+              "permalink": "/docs/oleic-style-guide",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/oleic-style-guide.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "python-style-guide",
+              "id": "python-style-guide",
+              "isDocsHomePage": false,
+              "title": "Python Style Guide",
+              "description": "1. Background",
+              "source": "@site/docs/python-style-guide.md",
+              "slug": "/python-style-guide",
+              "permalink": "/docs/python-style-guide",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/python-style-guide.md",
               "version": "current"
             },
             {

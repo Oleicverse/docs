@@ -11,14 +11,6 @@
           "mainDocId": "doc1",
           "docs": [
             {
-              "id": "account-settings",
-              "path": "/docs/account-settings"
-            },
-            {
-              "id": "analytics",
-              "path": "/docs/analytics"
-            },
-            {
               "id": "appearance",
               "path": "/docs/appearance"
             },
@@ -149,6 +141,14 @@
             {
               "id": "newsletter",
               "path": "/docs/newsletter"
+            },
+            {
+              "id": "oleic-style-guide",
+              "path": "/docs/oleic-style-guide"
+            },
+            {
+              "id": "python-style-guide",
+              "path": "/docs/python-style-guide"
             },
             {
               "id": "report-copyright-infringement",

@@ -1,6 +1,6 @@
 export default {
   "title": "Oleic Documentation",
-  "tagline": "Your go-to guides for understanding Oleic a little better",
+  "tagline": "",
   "url": "https://your-docusaurus-test-site.com",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
@@ -13,7 +13,7 @@ export default {
       "title": "",
       "logo": {
         "alt": "Oleic logo",
-        "src": "https://oleic-media.s3.amazonaws.com/oleic+docs.png"
+        "src": "/src/oleic-docs.png"
       },
       "items": [],
       "hideOnScroll": false

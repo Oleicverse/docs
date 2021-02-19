@@ -18,7 +18,7 @@ const features = [
 
       </>
     ),
-  },
+  }, 
   {
     title: 'Phase 1',
     description: (
@@ -28,7 +28,7 @@ const features = [
         <li><a href = "docs/mapping-cloudflare">Mapping From Cloudflare</a></li>
         <li><a href = "docs/mapping-namecheap">Mapping From Namecheap</a></li>
       </>
-    ),
+    ), 
   },
   {
     title: 'Phase 2',
@@ -40,15 +40,16 @@ const features = [
         <li><a href = "docs/edit-article">Edit Published Article </a></li>
         <li><a href = "docs/edit-drafts">Edit Drafts </a></li>
       </>
-    ),
-  },{
+    ), 
+  },
+  {
     title: 'Contributing & Open Source',
     description: (
       <>
-        <li><a href = "docs/account-settings">Update Profile Page</a></li>
-        <li><a href = "docs/analytics">Analytics</a></li>
+        <li><a href = "docs/oleic-style-guide">Oleic Style Guidelines</a></li>
+        <li><a href = "docs/python-style-guide">Python Style Guide</a></li>
         <li><a href = "docs/general-settings">General Settings</a></li>
-        <li><a href = "docs/github-backup">Auto GitHub Backup</a></li>
+        <li><a href = "docs/github-backup">Auto GitHub Backup</a></li> 
 
       </>
     ),
@@ -57,18 +58,16 @@ const features = [
     title: 'Safety & Policies',
     description: (
       <>
-       <li><a href = "docs/community-code-of-conduct">Community Code of Conduct
-
-</a></li>
+       <li><a href = "docs/community-code-of-conduct">Community Code of Conduct</a></li>
         <li><a href = "docs/report-copyright-infringement">Report Copyright Infringement</a></li>
         <li><a href = "docs/report-posts-and-users#report-posts">Report Posts</a></li>
         <li><a href = "docs/report-posts-and-users#report-users">Report Users</a></li>
       </>
-    ),
+    ), 
   },
   {
     title: 'Frequently Asked Questions',
-    description: (
+  description: (
       <>
     
         <li><a href = "docs/faqs#how-can-i-save-a-draft-on-hashnode">How can I save a draft on Hashnode?</a></li>
@@ -77,7 +76,7 @@ const features = [
         <li><a href = "docs/faqs#how-can-i-set-a-canonical-url">How can I set a canonical URL?</a></li>
       
       </>
-    ),
+    ), 
   },
 ];
 

@@ -110,7 +110,7 @@
     "sidebar": "sidebar---blog-2-ff-9f2",
     "content": "content---blog-welcome-286-e55"
   },
-  "/docs-43c": {
+  "/docs-807": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -121,14 +121,6 @@
   "/docs/-86e": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-195-f8f"
-  },
-  "/docs/account-settings-2d8": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-account-settings-5-ac-1e0"
-  },
-  "/docs/analytics-d2a": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-analytics-7-cf-4eb"
   },
   "/docs/appearance-12a": {
     "component": "component---theme-doc-item-178-a40",
@@ -253,6 +245,14 @@
   "/docs/newsletter-45a": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-newsletterf-8-b-9c6"
+  },
+  "/docs/oleic-style-guide-ee8": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-oleic-style-guidefc-4-9db"
+  },
+  "/docs/python-style-guide-872": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-python-style-guidebf-7-0b4"
   },
   "/docs/report-copyright-infringement-aad": {
     "component": "component---theme-doc-item-178-a40",

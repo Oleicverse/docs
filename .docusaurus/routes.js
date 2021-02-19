@@ -89,7 +89,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','43c'),
+  component: ComponentCreator('/docs','807'),
   
   routes: [
 {
@@ -100,16 +100,6 @@ export default [
 {
   path: '/docs/',
   component: ComponentCreator('/docs/','86e'),
-  exact: true,
-},
-{
-  path: '/docs/account-settings',
-  component: ComponentCreator('/docs/account-settings','2d8'),
-  exact: true,
-},
-{
-  path: '/docs/analytics',
-  component: ComponentCreator('/docs/analytics','d2a'),
   exact: true,
 },
 {
@@ -265,6 +255,16 @@ export default [
 {
   path: '/docs/newsletter',
   component: ComponentCreator('/docs/newsletter','45a'),
+  exact: true,
+},
+{
+  path: '/docs/oleic-style-guide',
+  component: ComponentCreator('/docs/oleic-style-guide','ee8'),
+  exact: true,
+},
+{
+  path: '/docs/python-style-guide',
+  component: ComponentCreator('/docs/python-style-guide','872'),
   exact: true,
 },
 {

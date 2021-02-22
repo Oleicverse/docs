@@ -1,6 +1,6 @@
 export default {
   "title": "Oleic Documentation",
-  "tagline": "",
+
   "url": "https://your-docusaurus-test-site.com",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
@@ -16,11 +16,11 @@ export default {
         "src": "/src/oleic-docs.png"
       },
       "items": [],
-      "hideOnScroll": false
+      "hideOnScroll": true
     },
     "footer": {
       "style": "light",
-      "copyright": "Copyright © 2021 Oleic Technologies",
+      "copyright": "© 2021 Oleic Technologies | Dare Mighty Things",
       "links": []
     },
     "colorMode": {

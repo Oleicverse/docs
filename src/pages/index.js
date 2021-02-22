@@ -43,14 +43,15 @@ const features = [
     ), 
   },
   {
-    title: 'Contributing & Open Source',
+    title: 'Guidelines',
     description: (
       <>
         <li><a href = "docs/oleic-style-guide">Oleic Style Guidelines</a></li>
         <li><a href = "docs/python-style-guide">Python Style Guide</a></li>
-        <li><a href = "docs/general-settings">General Settings</a></li>
-        <li><a href = "docs/github-backup">Auto GitHub Backup</a></li> 
-
+        <li><a href = "docs/general-settings">HTML/CSS Style Guide</a></li>
+        <li><a href = "docs/github-backup">JavaScript Style Guide</a></li> 
+        <li><a href = "docs/github-backup">TypeScript Style Guide</a></li> 
+        <li><a href = "docs/github-backup">AngularJS Style Guide</a></li> 
       </>
     ),
   },

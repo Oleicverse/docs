@@ -911,3 +911,460 @@ When a literal string won’t fit on a single line, use parentheses for implicit
 ```py
 x = ('This will build a very long long ' 'long long long long long long string')
 ```
+
+Within comments, put long URLs on their own line if necessary.
+
+**Yes**
+```py
+# See details at
+# http://www.example.com/us/developer/documentation/api/content/v2.0/csv_file_name_extension_full_specification.html
+```
+
+**No**
+```py
+# See details at
+# http://www.example.com/us/developer/documentation/api/content/
+# v2.0/csv_file_name_extension_full_specification.html
+```
+
+It is permissible to use backslash continuation when defining a `with` statement whose expressions span three or more lines. For two lines of expressions, use a nested `with` statement:
+
+**Yes**
+```py
+with very_long_first_expression_function() as spam, \
+     very_long_second_expression_function() as beans, \
+     third_thing() as eggs:
+     place_order(eggs, beans, spam, beans)
+```
+**Yes**
+```py
+with very_long_first_expression_function() as spam:
+     with very_long_second_expression_function() as beans:
+         place_order(beans, spam)
+```
+**No**
+```py
+with very_long_first_expression_function() as spam, \
+     very_long_second_expression_function() as beans:
+         PlaceOrder(eggs, beans, spam, beans)
+```
+Make note of the [indentation](#) of the elements in the line continuation examples above; see the indentation section for explanation.
+
+In all other cases where a line exceeds 80 characters, and the [yapf](#) auto-formatter does not help bring the line below the limit, the line is allowed to exceed this maximum.
+
+### 3.3 Parentheses
+
+Use parentheses sparingly.
+
+It is fine, though not required, to use parentheses around tuples. Do not use them in return statements or conditional statements unless using parentheses for implied line continuation or to indicate a tuple.
+
+**Yes**
+```py
+if foo:
+    bar()
+while x:
+    x = bar()
+if x and y:
+    bar()
+if not x:
+    bar()
+# For a 1 item tuple the ()s are more visually obvious than the comma.
+onesie = (foo,)
+return foo
+return spam, beans
+return (spam, beans)
+for (x, y) in dict.items(): ...
+```
+
+**No**
+```py
+if (x):
+    bar()
+if not(x):
+    bar()
+return(foo)
+
+```
+
+### 3.4 Indentation
+
+Indent your code blocks with 4 spaces.
+
+Never use tabs or mix tabs and spaces. In case of implied line continuation, you should align wrapped elements either vertically, as per the examples in the [line length](#) section; or using a hanging indent of 4 space, in which case there should be nothing after the open parenthesis or bracket on the first line. 
+
+**Yes**
+```py
+# Aligned with opening delimiter
+foo = long_function_name(var_one, var_two, 
+                        var_three, var_four)
+meal = (spam,
+        beans)
+
+# Aligned with opening delimeter ina dictionary 
+foo = {
+    long_dictionary_key: value1 + 
+                         value2,
+    ...
+}
+
+# 4-spaces hanging indent; nothing on first line
+foo = long_function_name(
+    var_one, var_two, var_three,
+    var_four)
+meal = (
+    spam,
+    beans
+# 4-space hanging indent in a dictionary
+foo = {
+    long_dictionary_key:
+            long_dictionary_value,
+        ...
+       }
+)
+```
+
+**No**
+
+```py
+# Stuff on first line forbidden
+foo = long_function_name(var_one, var_two,
+    var_three, var_four)
+meal = (spam,
+     beans)
+
+# 2-space hanging indent forbidden 
+foo = long_function_name(
+  var_one, var_two,  var_three,
+  var_four)
+
+# No hanging indent in a dicrionary
+foo = {
+    long_dictionary_key:
+    long_dictionary_value,
+    ...
+}
+```
+#### 3.4.1 Trailing commas in sequences of items?
+
+Trailing commas in sequences of items are recommended only when the closing container token `]`, `)`, or `}` does not appear on the same line as the final element. The presence of a trailing comma is also used as a hint to our Python code auto-formatter [YAPF](https://pypi.org/project/yapf/) to direct it to auto-format the container of items to one item per line when the `,` after the final element is present.
+
+**Yes**
+```py
+golomb3 = [0, 1, 3]
+```
+
+**Yes**
+```py
+golomb4 = [
+    0, 
+    1, 
+    4, 
+    6,
+]
+```
+
+**No**
+```py
+golomb4 = [
+    0,
+    1,
+    4,
+    6
+]
+```
+
+### 3.5 Blank Lines
+Two blank lines between top-level definitions, be they function or class definitions. One blank line between method definitions and between the `class` line and the first method. No blank line following a `def` line. Use single blank lines as you judge appropriate within functions or methods.
+
+### 3.6 Whitespace
+Follow standard typographic rules for the use of spaces around punctuation.
+
+No whitespace inside parentheses, brackets or braces.
+
+**Yes**
+```py
+spam(ham[1], {eggs: 2}, [])
+```
+
+**No**
+```py
+spam(ham[ 1 ], {eggs: 2}, [ ])
+```
+No whitespace before a comma, semicolon, or colon. Do use whitespace after a comma, semicolon, or colon, except at the end of the line.
+
+**Yes**
+```py
+if x == 4:
+    print(x, y)
+x, y = y, x
+```
+
+**Yes**
+```py
+if x == 4:
+    print(x, y) 
+x , y = y , x
+```
+
+No whitespaces before the open paren/bracket that starts an arguement list, indexing or slicing.
+
+**Yes**
+```py
+spam(1)
+```
+
+**Yes**
+```py
+dict['key'] = list[index]
+```
+**No**
+```py
+spam (1)
+```
+**No**
+```py
+dict ['key'] = list [index]
+```
+
+No trailing whitespace.
+
+Surround binary operators with a single space on either side for assignment (`=`), comparisons (`==`, `<`, `>`, `!=`, `<>`, `<=`, `>=`, `in`, `not in`, `is`, `is not`), and Booleans (`and`, `or`, `not`). Use your better judgment for the insertion of spaces around arithmetic operators (`+`, `-`, `*`, `/`, `//`, `%`, `**`, `@`).
+
+**Yes**
+```py
+x == 1
+```
+
+**No**
+```py
+x<1
+```
+
+Never use spaces around `=` when passing keyword arguments or defining a default parameter value, with one exception: [when a type annotation is present](#), *do* use spaces around the `=` for the default parameter value.
+
+**Yes**
+```py
+def complex(real, imag=0.0): return Magic(r=real, i=imag)
+```
+```py
+def complex(real, imag: float = 0.0): return Magic(r=real, i=imag)
+```
+
+**No**
+```py
+def complex(real, imag = 0.0): return Magic(r = real, i = imag)
+```
+```py
+def complex(real, imag: float=0.0): return Magic(r = real, i = imag)
+```
+
+Don’t use spaces to vertically align tokens on consecutive lines, since it becomes a maintenance burden (applies to `:`, `#`, `=`, etc.):
+
+**Yes**
+```py
+foo = 1000  # comment
+long_name = 2  # comment that should not be aligned
+
+dictionary = {
+    'foo': 1,
+    'long_name': 2,
+  }
+```
+
+**No**
+```py
+foo       = 1000  # comment
+long_name = 2  # comment that should not be aligned
+
+dictionary = {
+    'foo'      : 1,
+    'long_name': 2,
+  }
+```
+
+### 3.7 Shebang Line
+Most `.py` files do not need to start with a `#!` line. Start the main file of a program with `#!/usr/bin/env python3` (to support virtualenvs) or `#!/usr/bin/python3` per [PEP-394](https://www.python.org/dev/peps/pep-0394/).
+
+This line is used by the kernel to find the Python interpreter, but is ignored by Python when importing modules. It is only necessary on a file intended to be executed directly.
+
+### 3.8 Comments and Docstrings
+Be sure to use the right style for module, function, method docstrings and inline comments.
+
+#### 3.8.1 Docstrings
+Python uses docstrings to document code. A docstring is a string that is the first statement in a package, module, class or function. These strings can be extracted automatically through the `__doc__` member of the object and are used by `pydoc`. (Try running `pydoc` on your module to see how it looks.) Always use the three double-quote `"""` format for docstrings (per [PEP 257](https://www.google.com/url?sa=D&q=http://www.python.org/dev/peps/pep-0257/)). A docstring should be organized as a summary line (one physical line not exceeding 80 characters) terminated by a period, question mark, or exclamation point. When writing more (encouraged), this must be followed by a blank line, followed by the rest of the docstring starting at the same cursor position as the first quote of the first line. There are more formatting guidelines for docstrings below.
+
+#### 3.8.2 Modules
+Every file should contain license boilerplate. Choose the appropriate boilerplate for the license used by the project (for example, Apache 2.0, BSD, LGPL, GPL)
+
+Files should start with a docstring describing the contents and usage of the module.
+
+```py
+"""A one line summary of the module or program, terminated by a period.
+
+Leave one blank line.  The rest of this docstring should contain an
+overall description of the module or program.  Optionally, it may also
+contain a brief description of exported classes and functions and/or usage
+examples.
+
+  Typical usage example:
+
+  foo = ClassFoo()
+  bar = foo.FunctionBar()
+"""
+```
+
+3.8.3 Functions and Methods
+In this section, “function” means a method, function, or generator.
+
+A function must have a docstring, unless it meets all of the following criteria:
+
+- not externally visible
+- very short
+- obvious
+
+A docstring should give enough information to write a call to the function without reading the function’s code. The docstring should be descriptive-style (`"""Fetches rows from a Bigtable."""`) rather than imperative-style (`"""Fetch rows from a Bigtable."""`), except for `@property` data descriptors, which should use the [same style as attributes](#). A docstring should describe the function’s calling syntax and its semantics, not its implementation. For tricky code, comments alongside the code are more appropriate than using docstrings.
+
+A method that overrides a method from a base class may have a simple docstring sending the reader to its overridden method’s docstring, such as `"""See base class."""`. The rationale is that there is no need to repeat in many places documentation that is already present in the base method’s docstring. However, if the overriding method’s behavior is substantially different from the overridden method, or details need to be provided (e.g., documenting additional side effects), a docstring with at least those differences is required on the overriding method.
+
+Certain aspects of a function should be documented in special sections, listed below. Each section begins with a heading line, which ends with a colon. All sections other than the heading should maintain a hanging indent of two or four spaces (be consistent within a file). These sections can be omitted in cases where the function’s name and signature are informative enough that it can be aptly described using a one-line docstring.
+
+***[Args:](#)***
+
+List each parameter by name. A description should follow the name, and be separated by a colon followed by either a space or newline. If the description is too long to fit on a single 80-character line, use a hanging indent of 2 or 4 spaces more than the parameter name (be consistent with the rest of the docstrings in the file). The description should include required type(s) if the code does not contain a corresponding type annotation. If a function accepts *foo (variable length argument lists) and/or **bar (arbitrary keyword arguments), they should be listed as *foo and **bar.
+
+***[Returns: (or Yields: for generators)](#)***
+
+Describe the type and semantics of the return value. If the function only returns None, this section is not required. It may also be omitted if the docstring starts with Returns or Yields (e.g. `"""Returns row from Bigtable as a tuple of strings."""`) and the opening sentence is sufficient to describe return value.
+
+***[Raises:](#)***
+
+List all exceptions that are relevant to the interface followed by a description. Use a similar exception name + colon + space or newline and hanging indent style as described in *Args:*. You should not document exceptions that get raised if the API specified in the docstring is violated (because this would paradoxically make behavior under violation of the API part of the API).
+
+```py
+def fetch_smalltable_rows(table_handle: smalltable.Table,
+                          keys: Sequence[Union[bytes, str]],
+                          require_all_keys: bool = False,
+) -> Mapping[bytes, Tuple[str]]:
+    """Fetches rows from a Smalltable.
+
+    Retrieves rows pertaining to the given keys from the Table instance
+    represented by table_handle.  String keys will be UTF-8 encoded.
+
+    Args:
+        table_handle: An open smalltable.Table instance.
+        keys: A sequence of strings representing the key of each table
+          row to fetch.  String keys will be UTF-8 encoded.
+        require_all_keys: Optional; If require_all_keys is True only
+          rows with values set for all keys will be returned.
+
+    Returns:
+        A dict mapping keys to the corresponding table row data
+        fetched. Each row is represented as a tuple of strings. For
+        example:
+
+        {b'Serak': ('Rigel VII', 'Preparer'),
+         b'Zim': ('Irk', 'Invader'),
+         b'Lrrr': ('Omicron Persei 8', 'Emperor')}
+
+        Returned keys are always bytes.  If a key from the keys argument is
+        missing from the dictionary, then that row was not found in the
+        table (and require_all_keys must have been False).
+
+    Raises:
+        IOError: An error occurred accessing the smalltable.
+    """
+```
+
+Similarly, this variation on `Args:` with a line break is also allowed.
+
+```py
+def fetch_smalltable_rows(table_handle: smalltable.Table,
+                          keys: Sequence[Union[bytes, str]],
+                          require_all_keys: bool = False,
+) -> Mapping[bytes, Tuple[str]]:
+    """Fetches rows from a Smalltable.
+
+    Retrieves rows pertaining to the given keys from the Table instance
+    represented by table_handle.  String keys will be UTF-8 encoded.
+
+    Args:
+      table_handle:
+        An open smalltable.Table instance.
+      keys:
+        A sequence of strings representing the key of each table row to
+        fetch.  String keys will be UTF-8 encoded.
+      require_all_keys:
+        Optional; If require_all_keys is True only rows with values set
+        for all keys will be returned.
+
+    Returns:
+      A dict mapping keys to the corresponding table row data
+      fetched. Each row is represented as a tuple of strings. For
+      example:
+
+      {b'Serak': ('Rigel VII', 'Preparer'),
+       b'Zim': ('Irk', 'Invader'),
+       b'Lrrr': ('Omicron Persei 8', 'Emperor')}
+
+      Returned keys are always bytes.  If a key from the keys argument is
+      missing from the dictionary, then that row was not found in the
+      table (and require_all_keys must have been False).
+
+    Raises:
+      IOError: An error occurred accessing the smalltable.
+    """
+```
+
+#### 3.8.4 Classes
+
+Classes should have a docstring below the class definition describing the class. If your class has public attributes, they should be documented here in an `Attributes` section and follow the same formatting as a [function’s `Args`](#) section.
+
+```py
+class SampleClass:
+    """Summary of class here.
+
+    Longer class information....
+    Longer class information....
+
+    Attributes:
+        likes_spam: A boolean indicating if we like SPAM or not.
+        eggs: An integer count of the eggs we have laid.
+    """
+
+    def __init__(self, likes_spam=False):
+        """Inits SampleClass with blah."""
+        self.likes_spam = likes_spam
+        self.eggs = 0
+
+    def public_method(self):
+        """Performs operation blah."""
+```
+
+#### 3.8.5 Block and Inline Comments
+
+The final place to have comments is in tricky parts of the code. If you’re going to have to explain it at the next [code review](http://en.wikipedia.org/wiki/Code_review), you should comment it now. Complicated operations get a few lines of comments before the operations commence. Non-obvious ones get comments at the end of the line.
+
+```py
+# We use a weighted dictionary search to find out where i is in
+# the array.  We extrapolate position based on the largest num
+# in the array and the array size and then do binary search to
+# get the exact number.
+
+if i & (i-1) == 0:  # True if i is 0 or a power of 2.
+```
+
+To improve legibility, these comments should start at least 2 spaces away from the code with the comment character `#`, followed by at least one space before the text of the comment itself.
+
+On the other hand, never describe the code. Assume the person reading the code knows Python (though not what you’re trying to do) better than you do.
+
+```py
+# BAD COMMENT: Now go through the b array and make sure whenever i occurs
+# the next element is i+1
+```
+
+#### 3.8.6 Punctuation, Spelling, and Grammar
+Pay attention to punctuation, spelling, and grammar; it is easier to read well-written comments than badly written ones.
+
+Comments should be as readable as narrative text, with proper capitalization and punctuation. In many cases, complete sentences are more readable than sentence fragments. Shorter comments, such as comments at the end of a line of code, can sometimes be less formal, but you should be consistent with your style.
+
+Although it can be frustrating to have a code reviewer point out that you are using a comma when you should be using a semicolon, it is very important that source code maintain a high level of clarity and readability. Proper punctuation, spelling, and grammar help with that goal.

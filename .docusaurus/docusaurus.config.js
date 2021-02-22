@@ -1,7 +1,6 @@
 export default {
   "title": "Oleic Documentation",
-
-  "url": "https://your-docusaurus-test-site.com",
+  "url": "https://docs.oleic.co",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",

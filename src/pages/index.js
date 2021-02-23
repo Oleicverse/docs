@@ -98,7 +98,7 @@ function Home() {
       >
       <header className={clsx('hero', styles.heroBanner)}>
         <div className="container">
-          <img className="homepage-img" src="https://cdn.hashnode.com/res/hashnode/image/upload/v1611857291933/3DcebSdEJ.png?auto=compress"/>
+          {/* <img className="Edit this page on GitHub" src="https://cdn.hashnode.com/res/hashnode/image/upload/v1611857291933/3DcebSdEJ.png?auto=compress"/> */}
           <h1  className="hero__title">How can we help?</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
         </div>

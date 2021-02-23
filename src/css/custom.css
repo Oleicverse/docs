@@ -8,7 +8,7 @@
 /* You can override the default Infima variables here. */
 @font-face {
   font-family: 'Archia';
-  font-style: normal;
+  font-style: bold;
   font-weight: 800;
 
   src: local('Archia'), local('archia-bold'), url(/src/Archia/archia-bold-webfont.woff2) format('woff');
@@ -16,18 +16,17 @@
 }
 @font-face {
   font-family: 'Archia';
-  font-style: normal;
+  font-style: medium;
   font-weight: 400;
 
-  src: local('Archia'), local('archia-bold'), url(/src/Archia/archia-medium-webfont.woff2) format('woff');
+  src: local('Archia'), local('archia-medium'), url(/src/Archia/archia-medium-webfont.woff2) format('woff');
 
 }
 @font-face {
   font-family: 'Archia';
-  font-style: normal;
   font-weight: 600;
 
-  src: local('Archia'), local('archia-bold'), url(/src/Archia/archia-semibold-webfont.woff2) format('woff');
+  src: local('Archia'), local('archia-semibold'), url(/src/Archia/archia-semibold-webfont.woff2) format('woff');
 
 }
 
@@ -77,7 +76,7 @@ body{
   background-color: #F7FAFC;
 }
 
-.homepage-img{
+.Edit this page on GitHub{
   width: 100px;
   height: 100px;
   display: block;

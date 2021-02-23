@@ -1,6 +1,5 @@
 module.exports = {
   title: 'Oleic Documentation',
-  tagline: 'The tagline of my site',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -13,7 +12,7 @@ module.exports = {
       title: '',
       logo: {
         alt: 'Oleic logo',
-        src: 'https://oleic-media.s3.amazonaws.com/oleic+docs.png',
+        src: 'src/oleic-docs.png',
       },
       items: [
         
@@ -66,7 +65,7 @@ module.exports = {
           ],
         },
       ], */
-      copyright: `Copyright © ${new Date().getFullYear()} Oleic Technologies`,
+      copyright: `© ${new Date().getFullYear()} Oleic Technologies | Dare Mighty Things`,
     },
   },
   presets: [

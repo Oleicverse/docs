@@ -1,6 +1,6 @@
 export default {
   "title": "Oleic Documentation",
-  "url": "https://docs.oleic.co",
+  "url": "https://your-docusaurus-test-site.com",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
@@ -12,7 +12,7 @@ export default {
       "title": "",
       "logo": {
         "alt": "Oleic logo",
-        "src": "/src/oleic-docs.png"
+        "src": "src/oleic-docs.png"
       },
       "items": [],
       "hideOnScroll": true

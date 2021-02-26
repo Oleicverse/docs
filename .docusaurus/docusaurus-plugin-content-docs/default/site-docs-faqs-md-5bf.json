@@ -1,0 +1,12 @@
+{
+  "unversionedId": "faqs",
+  "id": "faqs",
+  "isDocsHomePage": false,
+  "title": "Frequently Asked Questions",
+  "description": "Find below frequently asked questions about Hashnode:",
+  "source": "@site/docs\\faqs.md",
+  "slug": "/faqs",
+  "permalink": "/docs/faqs",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/faqs.md",
+  "version": "current"
+}

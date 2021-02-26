@@ -1,0 +1,12 @@
+{
+  "unversionedId": "mapping-godaddy",
+  "id": "mapping-godaddy",
+  "isDocsHomePage": false,
+  "title": "Mapping Domain from GoDaddy",
+  "description": "This section covers how to map a domain hosted or purchased on GoDaddy to Hashnode.",
+  "source": "@site/docs\\mapping-godaddy.md",
+  "slug": "/mapping-godaddy",
+  "permalink": "/docs/mapping-godaddy",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/mapping-godaddy.md",
+  "version": "current"
+}

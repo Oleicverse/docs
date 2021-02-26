@@ -1,0 +1,12 @@
+{
+  "unversionedId": "teams-blog-settings",
+  "id": "teams-blog-settings",
+  "isDocsHomePage": false,
+  "title": "Team Blog Settings",
+  "description": "Add New Members",
+  "source": "@site/docs\\teams-blog-settings.md",
+  "slug": "/teams-blog-settings",
+  "permalink": "/docs/teams-blog-settings",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/teams-blog-settings.md",
+  "version": "current"
+}

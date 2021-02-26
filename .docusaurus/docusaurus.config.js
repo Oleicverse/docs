@@ -1,6 +1,7 @@
 export default {
   "title": "Oleic Documentation",
-  "url": "https://docs.oleic.co",
+  "tagline": "The tagline of my site",
+  "url": "https://your-docusaurus-test-site.com",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
@@ -12,19 +13,19 @@ export default {
       "title": "",
       "logo": {
         "alt": "Oleic logo",
-        "src": "/src/oleic-docs.png"
+        "src": "https://oleic-media.s3.amazonaws.com/oleic+docs.png"
       },
       "items": [],
-      "hideOnScroll": true
+      "hideOnScroll": false
     },
     "footer": {
       "style": "light",
-      "copyright": "© 2021 Oleic Technologies | Dare Mighty Things",
+      "copyright": "Copyright © 2021 Oleic Technologies",
       "links": []
     },
     "colorMode": {
       "defaultMode": "light",
-      "disableSwitch": true,
+      "disableSwitch": false,
       "respectPrefersColorScheme": false,
       "switchConfig": {
         "darkIcon": "🌜",
@@ -47,7 +48,7 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "/Users/curie/Oleic/Oleic Phase 2/docs/sidebars.js",
+          "sidebarPath": "D:\\oleic\\oleicverse\\docs\\sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/"
         },
         "blog": {
@@ -55,7 +56,7 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/"
         },
         "theme": {
-          "customCss": "/Users/curie/Oleic/Oleic Phase 2/docs/src/css/custom.css"
+          "customCss": "D:\\oleic\\oleicverse\\docs\\src\\css\\custom.css"
         }
       }
     ]

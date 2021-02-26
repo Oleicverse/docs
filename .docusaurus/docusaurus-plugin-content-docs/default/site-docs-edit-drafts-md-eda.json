@@ -1,0 +1,12 @@
+{
+  "unversionedId": "edit-drafts",
+  "id": "edit-drafts",
+  "isDocsHomePage": false,
+  "title": "Edit Drafts",
+  "description": "Here is how to find and edit a draft on Hashnode:",
+  "source": "@site/docs\\edit-drafts.md",
+  "slug": "/edit-drafts",
+  "permalink": "/docs/edit-drafts",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/edit-drafts.md",
+  "version": "current"
+}

@@ -102,6 +102,10 @@
               "path": "/docs/hashnode-glossary"
             },
             {
+              "id": "htmlcssguide",
+              "path": "/docs/htmlcssguide"
+            },
+            {
               "id": "import-articles",
               "path": "/docs/import-articles"
             },

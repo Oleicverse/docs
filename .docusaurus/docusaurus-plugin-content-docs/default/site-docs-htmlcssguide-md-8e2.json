@@ -1,0 +1,12 @@
+{
+  "unversionedId": "htmlcssguide",
+  "id": "htmlcssguide",
+  "isDocsHomePage": false,
+  "title": "htmlcssguide",
+  "description": "HTML/CSS Style Guide",
+  "source": "@site/docs\\htmlcssguide.md",
+  "slug": "/htmlcssguide",
+  "permalink": "/docs/htmlcssguide",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/htmlcssguide.md",
+  "version": "current"
+}

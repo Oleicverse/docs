@@ -1,0 +1,12 @@
+{
+  "unversionedId": "github-backup",
+  "id": "github-backup",
+  "isDocsHomePage": false,
+  "title": "Auto GitHub Backups",
+  "description": "You can automatically backup your published posts as markdown files to a public or private repository on GitHub. Backups are also updated automatically upon any edit or delete change.",
+  "source": "@site/docs\\github-backup.md",
+  "slug": "/github-backup",
+  "permalink": "/docs/github-backup",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/github-backup.md",
+  "version": "current"
+}

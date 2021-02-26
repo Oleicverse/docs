@@ -1,0 +1,12 @@
+{
+  "unversionedId": "general-settings",
+  "id": "general-settings",
+  "isDocsHomePage": false,
+  "title": "General Settings",
+  "description": "Here is how to update the general settings of your blog:",
+  "source": "@site/docs\\general-settings.md",
+  "slug": "/general-settings",
+  "permalink": "/docs/general-settings",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/general-settings.md",
+  "version": "current"
+}

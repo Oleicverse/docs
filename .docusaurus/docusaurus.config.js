@@ -1,7 +1,7 @@
 export default {
   "title": "Oleic Documentation",
-  "url": "docs.oleic.co",
-  "baseUrl": "/",
+  "url": "oleicverse.github.io",
+  "baseUrl": "/docs/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "src/oleic-fav.ico",
@@ -24,7 +24,7 @@ export default {
     },
     "colorMode": {
       "defaultMode": "light",
-      "disableSwitch": false,
+      "disableSwitch": true,
       "respectPrefersColorScheme": false,
       "switchConfig": {
         "darkIcon": "🌜",

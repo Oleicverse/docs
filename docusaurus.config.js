@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Oleic Documentation',
-  url: 'docs.oleic.co',
-  baseUrl: '/',
+  url: 'oleicverse.github.io',
+  baseUrl: '/docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'src/oleic-fav.ico',

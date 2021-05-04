@@ -1,19 +1,18 @@
 module.exports = {
   title: 'Oleic Documentation',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'docs.oleic.co',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'src/oleic-fav.ico',
-  organizationName: 'Oleic', // Usually your GitHub org/user name.
-  projectName: 'oleicverse', // Usually your repo name.
+  organizationName: 'oleicverse', // Usually your GitHub org/user name.
+  projectName: 'docs', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: '',
       logo: {
         alt: 'Oleic logo',
-        src: 'https://oleic-media.s3.amazonaws.com/oleic+docs.png',
+        src: 'src/oleic-docs.png',
       },
       items: [
         
@@ -66,7 +65,7 @@ module.exports = {
           ],
         },
       ], */
-      copyright: `Copyright © ${new Date().getFullYear()} Oleic Technologies`,
+      copyright: `© ${new Date().getFullYear()} Oleic | Dare Mighty Things`,
     },
   },
   presets: [
@@ -77,13 +76,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/oleicverse/docs',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/oleicverse/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

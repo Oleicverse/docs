@@ -7,6 +7,6 @@
   "source": "@site/docs/newsletter.md",
   "slug": "/newsletter",
   "permalink": "/docs/newsletter",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/newsletter.md",
+  "editUrl": "https://github.com/oleicverse/docs/docs/newsletter.md",
   "version": "current"
 }

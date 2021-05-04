@@ -7,6 +7,6 @@
   "source": "@site/docs/static-pages.md",
   "slug": "/static-pages",
   "permalink": "/docs/static-pages",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/static-pages.md",
+  "editUrl": "https://github.com/oleicverse/docs/docs/static-pages.md",
   "version": "current"
 }

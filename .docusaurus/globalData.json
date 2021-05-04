@@ -155,10 +155,6 @@
               "path": "/docs/report-copyright-infringement"
             },
             {
-              "id": "report-posts-and-users",
-              "path": "/docs/report-posts-and-users"
-            },
-            {
               "id": "seo",
               "path": "/docs/seo"
             },
@@ -173,6 +169,10 @@
             {
               "id": "teams-blog-settings",
               "path": "/docs/teams-blog-settings"
+            },
+            {
+              "id": "terms-of-service",
+              "path": "/docs/terms-of-service"
             },
             {
               "id": "using-hashnode",

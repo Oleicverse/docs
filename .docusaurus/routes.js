@@ -8,41 +8,6 @@ export default [
   exact: true,
 },
 {
-  path: '/__docusaurus/debug',
-  component: ComponentCreator('/__docusaurus/debug','3d6'),
-  exact: true,
-},
-{
-  path: '/__docusaurus/debug/config',
-  component: ComponentCreator('/__docusaurus/debug/config','914'),
-  exact: true,
-},
-{
-  path: '/__docusaurus/debug/content',
-  component: ComponentCreator('/__docusaurus/debug/content','c28'),
-  exact: true,
-},
-{
-  path: '/__docusaurus/debug/globalData',
-  component: ComponentCreator('/__docusaurus/debug/globalData','3cf'),
-  exact: true,
-},
-{
-  path: '/__docusaurus/debug/metadata',
-  component: ComponentCreator('/__docusaurus/debug/metadata','31b'),
-  exact: true,
-},
-{
-  path: '/__docusaurus/debug/registry',
-  component: ComponentCreator('/__docusaurus/debug/registry','0da'),
-  exact: true,
-},
-{
-  path: '/__docusaurus/debug/routes',
-  component: ComponentCreator('/__docusaurus/debug/routes','244'),
-  exact: true,
-},
-{
   path: '/blog',
   component: ComponentCreator('/blog','eb6'),
   exact: true,
@@ -89,7 +54,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','807'),
+  component: ComponentCreator('/docs','f74'),
   
   routes: [
 {
@@ -273,11 +238,6 @@ export default [
   exact: true,
 },
 {
-  path: '/docs/report-posts-and-users',
-  component: ComponentCreator('/docs/report-posts-and-users','74d'),
-  exact: true,
-},
-{
   path: '/docs/seo',
   component: ComponentCreator('/docs/seo','d9e'),
   exact: true,
@@ -295,6 +255,11 @@ export default [
 {
   path: '/docs/teams-blog-settings',
   component: ComponentCreator('/docs/teams-blog-settings','f04'),
+  exact: true,
+},
+{
+  path: '/docs/terms-of-service',
+  component: ComponentCreator('/docs/terms-of-service','4d3'),
   exact: true,
 },
 {

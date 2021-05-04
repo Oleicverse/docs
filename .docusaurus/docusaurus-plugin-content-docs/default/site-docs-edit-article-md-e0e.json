@@ -7,6 +7,6 @@
   "source": "@site/docs/edit-article.md",
   "slug": "/edit-article",
   "permalink": "/docs/edit-article",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/edit-article.md",
+  "editUrl": "https://github.com/oleicverse/docs/docs/edit-article.md",
   "version": "current"
 }

@@ -59,9 +59,9 @@ const features = [
     title: 'Safety & Policies',
     description: (
       <>
+       <li><a href = "docs/terms-of-service">Terms</a></li>
        <li><a href = "docs/community-code-of-conduct">Community Code of Conduct</a></li>
         <li><a href = "docs/report-copyright-infringement">Report Copyright Infringement</a></li>
-        <li><a href = "docs/report-posts-and-users#report-posts">Report Posts</a></li>
         <li><a href = "docs/report-posts-and-users#report-users">Report Users</a></li>
       </>
     ), 
@@ -98,7 +98,7 @@ function Home() {
       >
       <header className={clsx('hero', styles.heroBanner)}>
         <div className="container">
-          {/* <img className="Edit this page on GitHub" src="https://cdn.hashnode.com/res/hashnode/image/upload/v1611857291933/3DcebSdEJ.png?auto=compress"/> */}
+          <img className="homepage-img" src="https://ghicons.github.com/assets/images/blue/png/Skywalker.png"/> 
           <h1  className="hero__title">How can we help?</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
         </div>

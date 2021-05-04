@@ -90,7 +90,7 @@ body{
 .main-container{
   font-family: 'Archia', sans-serif;
 
-  padding-top: 48px;
+  padding-top: 0;
   padding-bottom: 48px;
 }
 
@@ -102,6 +102,11 @@ footer{
 
 .navbar-sidebar{
   box-shadow: none;
+}
+
+.homepage-img{
+  height: 100px;
+  width: 100px;
 }
 
 @media (max-width: 425px){

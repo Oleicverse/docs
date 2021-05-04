@@ -1578,4 +1578,65 @@ with contextlib.closing(urllib.urlopen("http://www.python.org/")) as front_page:
         print(line)
 ```
 
-### 
+### 3.11 TODO Comments
+
+Use `TODO` comments for code that is temporary, a short-term solution, or good-enough but not perfect.
+
+A `TODO` comment begins with the string `TODO` in all caps and a parenthesized name, e-mail address, or other identifier of the person or issue with the best context about the problem. This is followed by an explanation of what there is to do.
+
+The purpose is to have a consistent `TODO` format that can be searched to find out how to get more details. A `TODO` is not a commitment that the person referenced will fix the problem. Thus when you create a `TODO`, it is almost always your name that is given.
+
+```py
+# TODO(kl@gmail.com): Use a "*" here for string repetition.
+# TODO(Zeke) Change this to use relations.
+```
+
+If your `TODO` is of the form “At a future date do something” make sure that you either include a very specific date (“Fix by November 2009”) or a very specific event (“Remove this code when all clients can handle XML responses.”).
+
+### 3.12 Importing formatting
+
+Imports should be on separate lines; there are [exceptations for `typing` import](#).
+
+**Yes**
+```py
+import os
+import sys
+import typing import Mapping, Sequence
+```
+
+**No**
+```py
+import os, sys
+```
+
+Imports are always put at the top of the file, just after any module comments and docstring and before module global and constants. Import should be grouped from most generic to least generic:
+
+1. Python future import statements. For example:
+
+```py
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
+```
+
+See [above](#) for more information about those.
+
+2. Python standard library imports. For example:
+
+```py
+import sys
+```
+
+3. third-party module or package imports. For example:
+
+```py
+import tensorflow as tf
+```
+
+4. Code repository sub-package imports. For example:
+
+```py
+from otherproject.ai import mind
+```
+
+5. **Deprecated:** application-specific imports that are part of the same top level sub-package at this file. For example:

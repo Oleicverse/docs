@@ -6,7 +6,7 @@
   "description": "You can build your subscribers base with our inbuilt newsletter system, allowing your readers to subscribe to your blog.",
   "source": "@site/docs/newsletter.md",
   "slug": "/newsletter",
-  "permalink": "/docs/newsletter",
+  "permalink": "/docs/docs/newsletter",
   "editUrl": "https://github.com/oleicverse/docs/docs/newsletter.md",
   "version": "current"
 }

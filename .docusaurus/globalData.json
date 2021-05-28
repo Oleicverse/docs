@@ -1,190 +1,194 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/docs",
+      "path": "/docs/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/docs",
+          "path": "/docs/docs",
           "mainDocId": "doc1",
           "docs": [
             {
               "id": "appearance",
-              "path": "/docs/appearance"
+              "path": "/docs/docs/appearance"
+            },
+            {
+              "id": "arcade-privacy-policy",
+              "path": "/docs/docs/arcade-privacy-policy"
             },
             {
               "id": "bug-reports-and-feature-request",
-              "path": "/docs/bug-reports-and-feature-request"
+              "path": "/docs/docs/bug-reports-and-feature-request"
             },
             {
               "id": "change-log",
-              "path": "/docs/change-log"
+              "path": "/docs/docs/change-log"
             },
             {
               "id": "community-code-of-conduct",
-              "path": "/docs/community-code-of-conduct"
+              "path": "/docs/docs/community-code-of-conduct"
             },
             {
               "id": "contact-support",
-              "path": "/docs/contact-support"
+              "path": "/docs/docs/contact-support"
             },
             {
               "id": "cover-photo",
-              "path": "/docs/cover-photo"
+              "path": "/docs/docs/cover-photo"
             },
             {
               "id": "create-personal-blog",
-              "path": "/docs/create-personal-blog"
+              "path": "/docs/docs/create-personal-blog"
             },
             {
               "id": "create-team-blog",
-              "path": "/docs/create-team-blog"
+              "path": "/docs/docs/create-team-blog"
             },
             {
               "id": "doc1",
-              "path": "/docs/",
+              "path": "/docs/docs/",
               "sidebar": "someSidebar"
             },
             {
               "id": "doc2",
-              "path": "/docs/doc2",
+              "path": "/docs/docs/doc2",
               "sidebar": "someSidebar"
             },
             {
               "id": "doc3",
-              "path": "/docs/doc3",
+              "path": "/docs/docs/doc3",
               "sidebar": "someSidebar"
             },
             {
               "id": "drafts",
-              "path": "/docs/drafts"
+              "path": "/docs/docs/drafts"
             },
             {
               "id": "edit-article",
-              "path": "/docs/edit-article"
+              "path": "/docs/docs/edit-article"
             },
             {
               "id": "edit-drafts",
-              "path": "/docs/edit-drafts"
+              "path": "/docs/docs/edit-drafts"
             },
             {
               "id": "edit-slug",
-              "path": "/docs/edit-slug"
+              "path": "/docs/docs/edit-slug"
             },
             {
               "id": "edit-url-type",
-              "path": "/docs/edit-url-type"
+              "path": "/docs/docs/edit-url-type"
             },
             {
               "id": "embeds",
-              "path": "/docs/embeds"
+              "path": "/docs/docs/embeds"
             },
             {
               "id": "export-articles",
-              "path": "/docs/export-articles"
+              "path": "/docs/docs/export-articles"
             },
             {
               "id": "faqs",
-              "path": "/docs/faqs"
+              "path": "/docs/docs/faqs"
             },
             {
               "id": "general-settings",
-              "path": "/docs/general-settings"
+              "path": "/docs/docs/general-settings"
             },
             {
               "id": "github-backup",
-              "path": "/docs/github-backup"
+              "path": "/docs/docs/github-backup"
             },
             {
               "id": "hashnode-glossary",
-              "path": "/docs/hashnode-glossary"
+              "path": "/docs/docs/hashnode-glossary"
             },
             {
               "id": "import-articles",
-              "path": "/docs/import-articles"
+              "path": "/docs/docs/import-articles"
             },
             {
               "id": "integrations",
-              "path": "/docs/integrations"
+              "path": "/docs/docs/integrations"
             },
             {
               "id": "mapping-cloudflare",
-              "path": "/docs/mapping-cloudflare"
+              "path": "/docs/docs/mapping-cloudflare"
             },
             {
               "id": "mapping-domain",
-              "path": "/docs/mapping-domain"
+              "path": "/docs/docs/mapping-domain"
             },
             {
               "id": "mapping-domain-faqs",
-              "path": "/docs/mapping-domain-faqs"
+              "path": "/docs/docs/mapping-domain-faqs"
             },
             {
               "id": "mapping-godaddy",
-              "path": "/docs/mapping-godaddy"
+              "path": "/docs/docs/mapping-godaddy"
             },
             {
               "id": "mapping-namecheap",
-              "path": "/docs/mapping-namecheap"
+              "path": "/docs/docs/mapping-namecheap"
             },
             {
               "id": "markdown-guidelines",
-              "path": "/docs/markdown-guidelines"
+              "path": "/docs/docs/markdown-guidelines"
             },
             {
               "id": "mdx",
-              "path": "/docs/mdx",
+              "path": "/docs/docs/mdx",
               "sidebar": "someSidebar"
             },
             {
               "id": "newsletter",
-              "path": "/docs/newsletter"
+              "path": "/docs/docs/newsletter"
             },
             {
               "id": "oleic-style-guide",
-              "path": "/docs/oleic-style-guide"
+              "path": "/docs/docs/oleic-style-guide"
             },
             {
               "id": "python-style-guide",
-              "path": "/docs/python-style-guide"
+              "path": "/docs/docs/python-style-guide"
             },
             {
               "id": "report-copyright-infringement",
-              "path": "/docs/report-copyright-infringement"
+              "path": "/docs/docs/report-copyright-infringement"
             },
             {
               "id": "seo",
-              "path": "/docs/seo"
+              "path": "/docs/docs/seo"
             },
             {
               "id": "static-pages",
-              "path": "/docs/static-pages"
+              "path": "/docs/docs/static-pages"
             },
             {
               "id": "tags",
-              "path": "/docs/tags"
+              "path": "/docs/docs/tags"
             },
             {
               "id": "teams-blog-settings",
-              "path": "/docs/teams-blog-settings"
+              "path": "/docs/docs/teams-blog-settings"
             },
             {
               "id": "terms-of-service",
-              "path": "/docs/terms-of-service"
+              "path": "/docs/docs/terms-of-service"
             },
             {
               "id": "using-hashnode",
-              "path": "/docs/"
+              "path": "/docs/docs/"
             },
             {
               "id": "widgets",
-              "path": "/docs/widgets"
+              "path": "/docs/docs/widgets"
             },
             {
               "id": "write-an-article",
-              "path": "/docs/write-an-article"
+              "path": "/docs/docs/write-an-article"
             }
           ]
         }

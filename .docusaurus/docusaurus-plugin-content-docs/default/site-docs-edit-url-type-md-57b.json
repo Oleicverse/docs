@@ -6,7 +6,7 @@
   "description": "Suppose you created your Hashnode blog before mid-August 2020. In that case, it means your articles use the Legacy URL pattern, where a Collision Resistant Unique Identifier (CUID) is attached to the end of the URL of all your articles on your blog.",
   "source": "@site/docs/edit-url-type.md",
   "slug": "/edit-url-type",
-  "permalink": "/docs/edit-url-type",
+  "permalink": "/docs/docs/edit-url-type",
   "editUrl": "https://github.com/oleicverse/docs/docs/edit-url-type.md",
   "version": "current"
 }

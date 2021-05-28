@@ -6,7 +6,7 @@
   "description": "When you create your Hashnode blog, we provide a free yourdomain.hashnode.dev subdomain for you. However, you can set up your own yourdomain.tld domain or blog.yourdomain.tld subdomain to your Hashnode blog.",
   "source": "@site/docs/mapping-domain.md",
   "slug": "/mapping-domain",
-  "permalink": "/docs/mapping-domain",
+  "permalink": "/docs/docs/mapping-domain",
   "editUrl": "https://github.com/oleicverse/docs/docs/mapping-domain.md",
   "version": "current"
 }

@@ -6,7 +6,7 @@
   "description": "In the Hashnode editor, start typing in the text field to select some tags in the Select tags section at the editor's top-right sidebar on your desktop or bottom corner of the editor on your mobile screen.",
   "source": "@site/docs/tags.md",
   "slug": "/tags",
-  "permalink": "/docs/tags",
+  "permalink": "/docs/docs/tags",
   "editUrl": "https://github.com/oleicverse/docs/docs/tags.md",
   "version": "current"
 }

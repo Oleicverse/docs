@@ -6,7 +6,7 @@
   "description": "Widgets are regular embeds that can be inserted anywhere in your articles. This feature allows you to embed any third party widget (embeds/iframes outside the (embeds we support by default) inside your articles with no limitations.",
   "source": "@site/docs/widgets.md",
   "slug": "/widgets",
-  "permalink": "/docs/widgets",
+  "permalink": "/docs/docs/widgets",
   "editUrl": "https://github.com/oleicverse/docs/docs/widgets.md",
   "version": "current"
 }

@@ -6,7 +6,7 @@
   "description": "You can add third-party integrations like Google Analytics and Web Monetization Payment to your blog.",
   "source": "@site/docs/integrations.md",
   "slug": "/integrations",
-  "permalink": "/docs/integrations",
+  "permalink": "/docs/docs/integrations",
   "editUrl": "https://github.com/oleicverse/docs/docs/integrations.md",
   "version": "current"
 }

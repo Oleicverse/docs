@@ -6,7 +6,7 @@
   "description": "Hashnode supports the following embeds:",
   "source": "@site/docs/embeds.md",
   "slug": "/embeds",
-  "permalink": "/docs/embeds",
+  "permalink": "/docs/docs/embeds",
   "editUrl": "https://github.com/oleicverse/docs/docs/embeds.md",
   "version": "current"
 }

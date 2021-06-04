@@ -6,7 +6,7 @@
   "description": "Need help? Kindly reach out via the mediums below; our support team is here to attend to your needs, requests, questions, and concerns.",
   "source": "@site/docs/contact-support.md",
   "slug": "/contact-support",
-  "permalink": "/docs/contact-support",
+  "permalink": "/docs/docs/contact-support",
   "editUrl": "https://github.com/oleicverse/docs/docs/contact-support.md",
   "version": "current"
 }

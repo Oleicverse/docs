@@ -6,7 +6,7 @@
   "description": "You can customize your blog's look, feel, and layout by adding colors and images to change your blog's appearance.",
   "source": "@site/docs/appearance.md",
   "slug": "/appearance",
-  "permalink": "/docs/appearance",
+  "permalink": "/docs/docs/appearance",
   "editUrl": "https://github.com/oleicverse/docs/docs/appearance.md",
   "version": "current"
 }

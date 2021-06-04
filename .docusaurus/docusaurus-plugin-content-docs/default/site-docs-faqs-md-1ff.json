@@ -6,7 +6,7 @@
   "description": "Find below frequently asked questions about Hashnode:",
   "source": "@site/docs/faqs.md",
   "slug": "/faqs",
-  "permalink": "/docs/faqs",
+  "permalink": "/docs/docs/faqs",
   "editUrl": "https://github.com/oleicverse/docs/docs/faqs.md",
   "version": "current"
 }

@@ -13,17 +13,17 @@
           {
             "type": "link",
             "label": "Style Guide",
-            "href": "/docs/"
+            "href": "/docs/docs/"
           },
           {
             "type": "link",
             "label": "Document Number 2",
-            "href": "/docs/doc2"
+            "href": "/docs/docs/doc2"
           },
           {
             "type": "link",
             "label": "This is Document Number 3",
-            "href": "/docs/doc3"
+            "href": "/docs/docs/doc3"
           }
         ]
       },
@@ -35,16 +35,16 @@
           {
             "type": "link",
             "label": "Powered by MDX",
-            "href": "/docs/mdx"
+            "href": "/docs/docs/mdx"
           }
         ]
       }
     ]
   },
   "permalinkToSidebar": {
-    "/docs/": "someSidebar",
-    "/docs/doc2": "someSidebar",
-    "/docs/doc3": "someSidebar",
-    "/docs/mdx": "someSidebar"
+    "/docs/docs/": "someSidebar",
+    "/docs/docs/doc2": "someSidebar",
+    "/docs/docs/doc3": "someSidebar",
+    "/docs/docs/mdx": "someSidebar"
   }
 }

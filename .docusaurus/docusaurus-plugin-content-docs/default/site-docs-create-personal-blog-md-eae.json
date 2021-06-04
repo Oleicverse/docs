@@ -6,7 +6,7 @@
   "description": "Before creating a personal blog, here are some prerequisites needed:",
   "source": "@site/docs/create-personal-blog.md",
   "slug": "/create-personal-blog",
-  "permalink": "/docs/create-personal-blog",
+  "permalink": "/docs/docs/create-personal-blog",
   "editUrl": "https://github.com/oleicverse/docs/docs/create-personal-blog.md",
   "version": "current"
 }

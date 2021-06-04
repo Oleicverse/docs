@@ -6,7 +6,7 @@
   "description": "1. Background",
   "source": "@site/docs/python-style-guide.md",
   "slug": "/python-style-guide",
-  "permalink": "/docs/python-style-guide",
+  "permalink": "/docs/docs/python-style-guide",
   "editUrl": "https://github.com/oleicverse/docs/docs/python-style-guide.md",
   "version": "current"
 }

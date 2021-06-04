@@ -6,7 +6,7 @@
   "description": "Here is how to write a post on Hashnode:",
   "source": "@site/docs/write-an-article.md",
   "slug": "/write-an-article",
-  "permalink": "/docs/write-an-article",
+  "permalink": "/docs/docs/write-an-article",
   "editUrl": "https://github.com/oleicverse/docs/docs/write-an-article.md",
   "version": "current"
 }

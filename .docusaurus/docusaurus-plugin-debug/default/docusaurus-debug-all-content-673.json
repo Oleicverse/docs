@@ -5,7 +5,7 @@
         {
           "versionName": "current",
           "versionLabel": "Next",
-          "versionPath": "/docs",
+          "versionPath": "/docs/docs",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "/Users/curie/Oleic/Oleic Phase 2/docs/sidebars.js",
@@ -47,10 +47,10 @@
             ]
           },
           "permalinkToSidebar": {
-            "/docs/": "someSidebar",
-            "/docs/doc2": "someSidebar",
-            "/docs/doc3": "someSidebar",
-            "/docs/mdx": "someSidebar"
+            "/docs/docs/": "someSidebar",
+            "/docs/docs/doc2": "someSidebar",
+            "/docs/docs/doc3": "someSidebar",
+            "/docs/docs/mdx": "someSidebar"
           },
           "docs": [
             {
@@ -61,8 +61,20 @@
               "description": "You can customize your blog's look, feel, and layout by adding colors and images to change your blog's appearance.",
               "source": "@site/docs/appearance.md",
               "slug": "/appearance",
-              "permalink": "/docs/appearance",
+              "permalink": "/docs/docs/appearance",
               "editUrl": "https://github.com/oleicverse/docs/docs/appearance.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "arcade-privacy-policy",
+              "id": "arcade-privacy-policy",
+              "isDocsHomePage": false,
+              "title": "Arcade Privacy Policy",
+              "description": "Thank you for choosing to be the part of our community at Oleic Technologies Private Limited and its subsidaries, doing business as Oleic Arcade (“Oleic Arcade”, “Arcade”, “we”, “us”, “our”, “the Company”). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy policy or our practices with regards to your personal information, please contact us at privacy@oleic.co.",
+              "source": "@site/docs/arcade-privacy-policy.md",
+              "slug": "/arcade-privacy-policy",
+              "permalink": "/docs/docs/arcade-privacy-policy",
+              "editUrl": "https://github.com/oleicverse/docs/docs/arcade-privacy-policy.md",
               "version": "current"
             },
             {
@@ -73,7 +85,7 @@
               "description": "Please help us build a better community for you. Submit a new feature suggestion or bug.",
               "source": "@site/docs/bug-reports-and-feature-request.md",
               "slug": "/bug-reports-and-feature-request",
-              "permalink": "/docs/bug-reports-and-feature-request",
+              "permalink": "/docs/docs/bug-reports-and-feature-request",
               "editUrl": "https://github.com/oleicverse/docs/docs/bug-reports-and-feature-request.md",
               "version": "current"
             },
@@ -85,7 +97,7 @@
               "description": "Hashnode changelog keeps you updated on the changes made on Hashnode regularly. It includes records of changes such as bug fixes, new features, feature upgrades, why we made the changes, and how these changes will improve your experience with Hashnode for you.",
               "source": "@site/docs/change-log.md",
               "slug": "/change-log",
-              "permalink": "/docs/change-log",
+              "permalink": "/docs/docs/change-log",
               "editUrl": "https://github.com/oleicverse/docs/docs/change-log.md",
               "version": "current"
             },
@@ -97,7 +109,7 @@
               "description": "About",
               "source": "@site/docs/community-code-of-conduct.md",
               "slug": "/community-code-of-conduct",
-              "permalink": "/docs/community-code-of-conduct",
+              "permalink": "/docs/docs/community-code-of-conduct",
               "editUrl": "https://github.com/oleicverse/docs/docs/community-code-of-conduct.md",
               "version": "current"
             },
@@ -109,7 +121,7 @@
               "description": "Need help? Kindly reach out via the mediums below; our support team is here to attend to your needs, requests, questions, and concerns.",
               "source": "@site/docs/contact-support.md",
               "slug": "/contact-support",
-              "permalink": "/docs/contact-support",
+              "permalink": "/docs/docs/contact-support",
               "editUrl": "https://github.com/oleicverse/docs/docs/contact-support.md",
               "version": "current"
             },
@@ -121,7 +133,7 @@
               "description": "In the Hashnode editor, click on the Upload an image button to upload a cover photo for your article (with recommended dimensions of 1200px width and 630px height) in the Article Cover section at the top-right sidebar of the editor on your desktop or bottom corner of the editor on your mobile screen.",
               "source": "@site/docs/cover-photo.md",
               "slug": "/cover-photo",
-              "permalink": "/docs/cover-photo",
+              "permalink": "/docs/docs/cover-photo",
               "editUrl": "https://github.com/oleicverse/docs/docs/cover-photo.md",
               "version": "current"
             },
@@ -133,7 +145,7 @@
               "description": "Before creating a personal blog, here are some prerequisites needed:",
               "source": "@site/docs/create-personal-blog.md",
               "slug": "/create-personal-blog",
-              "permalink": "/docs/create-personal-blog",
+              "permalink": "/docs/docs/create-personal-blog",
               "editUrl": "https://github.com/oleicverse/docs/docs/create-personal-blog.md",
               "version": "current"
             },
@@ -145,7 +157,7 @@
               "description": "The Team Blog feature is currently in beta (ongoing testing/improvements), and is not available publicly to all Hashnode users, and will become a paid feature soon.",
               "source": "@site/docs/create-team-blog.md",
               "slug": "/create-team-blog",
-              "permalink": "/docs/create-team-blog",
+              "permalink": "/docs/docs/create-team-blog",
               "editUrl": "https://github.com/oleicverse/docs/docs/create-team-blog.md",
               "version": "current"
             },
@@ -157,14 +169,14 @@
               "description": "You can write content using GitHub-flavored Markdown syntax.",
               "source": "@site/docs/doc1.md",
               "slug": "/",
-              "permalink": "/docs/",
+              "permalink": "/docs/docs/",
               "editUrl": "https://github.com/oleicverse/docs/docs/doc1.md",
               "version": "current",
               "sidebar_label": "Style Guide",
               "sidebar": "someSidebar",
               "next": {
                 "title": "Document Number 2",
-                "permalink": "/docs/doc2"
+                "permalink": "/docs/docs/doc2"
               }
             },
             {
@@ -175,17 +187,17 @@
               "description": "This is a link to another document. This is a link to an external page.",
               "source": "@site/docs/doc2.md",
               "slug": "/doc2",
-              "permalink": "/docs/doc2",
+              "permalink": "/docs/docs/doc2",
               "editUrl": "https://github.com/oleicverse/docs/docs/doc2.md",
               "version": "current",
               "sidebar": "someSidebar",
               "previous": {
                 "title": "Style Guide",
-                "permalink": "/docs/"
+                "permalink": "/docs/docs/"
               },
               "next": {
                 "title": "This is Document Number 3",
-                "permalink": "/docs/doc3"
+                "permalink": "/docs/docs/doc3"
               }
             },
             {
@@ -196,17 +208,17 @@
               "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
               "source": "@site/docs/doc3.md",
               "slug": "/doc3",
-              "permalink": "/docs/doc3",
+              "permalink": "/docs/docs/doc3",
               "editUrl": "https://github.com/oleicverse/docs/docs/doc3.md",
               "version": "current",
               "sidebar": "someSidebar",
               "previous": {
                 "title": "Document Number 2",
-                "permalink": "/docs/doc2"
+                "permalink": "/docs/docs/doc2"
               },
               "next": {
                 "title": "Powered by MDX",
-                "permalink": "/docs/mdx"
+                "permalink": "/docs/docs/mdx"
               }
             },
             {
@@ -217,7 +229,7 @@
               "description": "When you start writing using Hashnode's editor, we automatically save your unpublished articles as drafts and update them once you make a change.",
               "source": "@site/docs/drafts.md",
               "slug": "/drafts",
-              "permalink": "/docs/drafts",
+              "permalink": "/docs/docs/drafts",
               "editUrl": "https://github.com/oleicverse/docs/docs/drafts.md",
               "version": "current"
             },
@@ -229,7 +241,7 @@
               "description": "Here is how to edit a published article on Hashnode:",
               "source": "@site/docs/edit-article.md",
               "slug": "/edit-article",
-              "permalink": "/docs/edit-article",
+              "permalink": "/docs/docs/edit-article",
               "editUrl": "https://github.com/oleicverse/docs/docs/edit-article.md",
               "version": "current"
             },
@@ -241,7 +253,7 @@
               "description": "Here is how to find and edit a draft on Hashnode:",
               "source": "@site/docs/edit-drafts.md",
               "slug": "/edit-drafts",
-              "permalink": "/docs/edit-drafts",
+              "permalink": "/docs/docs/edit-drafts",
               "editUrl": "https://github.com/oleicverse/docs/docs/edit-drafts.md",
               "version": "current"
             },
@@ -253,7 +265,7 @@
               "description": "Here is how to edit the slug of a published article:",
               "source": "@site/docs/edit-slug.md",
               "slug": "/edit-slug",
-              "permalink": "/docs/edit-slug",
+              "permalink": "/docs/docs/edit-slug",
               "editUrl": "https://github.com/oleicverse/docs/docs/edit-slug.md",
               "version": "current"
             },
@@ -265,7 +277,7 @@
               "description": "Suppose you created your Hashnode blog before mid-August 2020. In that case, it means your articles use the Legacy URL pattern, where a Collision Resistant Unique Identifier (CUID) is attached to the end of the URL of all your articles on your blog.",
               "source": "@site/docs/edit-url-type.md",
               "slug": "/edit-url-type",
-              "permalink": "/docs/edit-url-type",
+              "permalink": "/docs/docs/edit-url-type",
               "editUrl": "https://github.com/oleicverse/docs/docs/edit-url-type.md",
               "version": "current"
             },
@@ -277,7 +289,7 @@
               "description": "Hashnode supports the following embeds:",
               "source": "@site/docs/embeds.md",
               "slug": "/embeds",
-              "permalink": "/docs/embeds",
+              "permalink": "/docs/docs/embeds",
               "editUrl": "https://github.com/oleicverse/docs/docs/embeds.md",
               "version": "current"
             },
@@ -289,7 +301,7 @@
               "description": "Here is how to download all your articles in JSON format:",
               "source": "@site/docs/export-articles.md",
               "slug": "/export-articles",
-              "permalink": "/docs/export-articles",
+              "permalink": "/docs/docs/export-articles",
               "editUrl": "https://github.com/oleicverse/docs/docs/export-articles.md",
               "version": "current"
             },
@@ -301,7 +313,7 @@
               "description": "Find below frequently asked questions about Hashnode:",
               "source": "@site/docs/faqs.md",
               "slug": "/faqs",
-              "permalink": "/docs/faqs",
+              "permalink": "/docs/docs/faqs",
               "editUrl": "https://github.com/oleicverse/docs/docs/faqs.md",
               "version": "current"
             },
@@ -313,7 +325,7 @@
               "description": "Here is how to update the general settings of your blog:",
               "source": "@site/docs/general-settings.md",
               "slug": "/general-settings",
-              "permalink": "/docs/general-settings",
+              "permalink": "/docs/docs/general-settings",
               "editUrl": "https://github.com/oleicverse/docs/docs/general-settings.md",
               "version": "current"
             },
@@ -325,7 +337,7 @@
               "description": "You can automatically backup your published posts as markdown files to a public or private repository on GitHub. Backups are also updated automatically upon any edit or delete change.",
               "source": "@site/docs/github-backup.md",
               "slug": "/github-backup",
-              "permalink": "/docs/github-backup",
+              "permalink": "/docs/docs/github-backup",
               "editUrl": "https://github.com/oleicverse/docs/docs/github-backup.md",
               "version": "current"
             },
@@ -337,7 +349,7 @@
               "description": "Reaction",
               "source": "@site/docs/hashnode-glossary.md",
               "slug": "/hashnode-glossary",
-              "permalink": "/docs/hashnode-glossary",
+              "permalink": "/docs/docs/hashnode-glossary",
               "editUrl": "https://github.com/oleicverse/docs/docs/hashnode-glossary.md",
               "version": "current"
             },
@@ -349,7 +361,7 @@
               "description": "---",
               "source": "@site/docs/import-articles.md",
               "slug": "/import-articles",
-              "permalink": "/docs/import-articles",
+              "permalink": "/docs/docs/import-articles",
               "editUrl": "https://github.com/oleicverse/docs/docs/import-articles.md",
               "version": "current"
             },
@@ -361,7 +373,7 @@
               "description": "You can add third-party integrations like Google Analytics and Web Monetization Payment to your blog.",
               "source": "@site/docs/integrations.md",
               "slug": "/integrations",
-              "permalink": "/docs/integrations",
+              "permalink": "/docs/docs/integrations",
               "editUrl": "https://github.com/oleicverse/docs/docs/integrations.md",
               "version": "current"
             },
@@ -373,7 +385,7 @@
               "description": "Cloudflare is a free CDN that protects against threats such as SQL injection and identity theft. It improves site performance and speeds up loading times by using multiple data centers that are located around the world.",
               "source": "@site/docs/mapping-cloudflare.md",
               "slug": "/mapping-cloudflare",
-              "permalink": "/docs/mapping-cloudflare",
+              "permalink": "/docs/docs/mapping-cloudflare",
               "editUrl": "https://github.com/oleicverse/docs/docs/mapping-cloudflare.md",
               "version": "current"
             },
@@ -385,7 +397,7 @@
               "description": "When you create your Hashnode blog, we provide a free yourdomain.hashnode.dev subdomain for you. However, you can set up your own yourdomain.tld domain or blog.yourdomain.tld subdomain to your Hashnode blog.",
               "source": "@site/docs/mapping-domain.md",
               "slug": "/mapping-domain",
-              "permalink": "/docs/mapping-domain",
+              "permalink": "/docs/docs/mapping-domain",
               "editUrl": "https://github.com/oleicverse/docs/docs/mapping-domain.md",
               "version": "current"
             },
@@ -397,7 +409,7 @@
               "description": "Find below frequently asked questions about mapping a custom domain to Hashnode:",
               "source": "@site/docs/mapping-domain-faqs.md",
               "slug": "/mapping-domain-faqs",
-              "permalink": "/docs/mapping-domain-faqs",
+              "permalink": "/docs/docs/mapping-domain-faqs",
               "editUrl": "https://github.com/oleicverse/docs/docs/mapping-domain-faqs.md",
               "version": "current"
             },
@@ -409,7 +421,7 @@
               "description": "This section covers how to map a domain hosted or purchased on GoDaddy to Hashnode.",
               "source": "@site/docs/mapping-godaddy.md",
               "slug": "/mapping-godaddy",
-              "permalink": "/docs/mapping-godaddy",
+              "permalink": "/docs/docs/mapping-godaddy",
               "editUrl": "https://github.com/oleicverse/docs/docs/mapping-godaddy.md",
               "version": "current"
             },
@@ -421,7 +433,7 @@
               "description": "This section covers how to map a domain hosted or purchased on Namecheap to Hashnode.",
               "source": "@site/docs/mapping-namecheap.md",
               "slug": "/mapping-namecheap",
-              "permalink": "/docs/mapping-namecheap",
+              "permalink": "/docs/docs/mapping-namecheap",
               "editUrl": "https://github.com/oleicverse/docs/docs/mapping-namecheap.md",
               "version": "current"
             },
@@ -433,7 +445,7 @@
               "description": "Hashnode's Editor supports simple markdown and some unique tags for embeds.",
               "source": "@site/docs/markdown-guidelines.md",
               "slug": "/markdown-guidelines",
-              "permalink": "/docs/markdown-guidelines",
+              "permalink": "/docs/docs/markdown-guidelines",
               "editUrl": "https://github.com/oleicverse/docs/docs/markdown-guidelines.md",
               "version": "current"
             },
@@ -445,13 +457,13 @@
               "description": "You can write JSX and use React components within your Markdown thanks to MDX.",
               "source": "@site/docs/mdx.md",
               "slug": "/mdx",
-              "permalink": "/docs/mdx",
+              "permalink": "/docs/docs/mdx",
               "editUrl": "https://github.com/oleicverse/docs/docs/mdx.md",
               "version": "current",
               "sidebar": "someSidebar",
               "previous": {
                 "title": "This is Document Number 3",
-                "permalink": "/docs/doc3"
+                "permalink": "/docs/docs/doc3"
               }
             },
             {
@@ -462,7 +474,7 @@
               "description": "You can build your subscribers base with our inbuilt newsletter system, allowing your readers to subscribe to your blog.",
               "source": "@site/docs/newsletter.md",
               "slug": "/newsletter",
-              "permalink": "/docs/newsletter",
+              "permalink": "/docs/docs/newsletter",
               "editUrl": "https://github.com/oleicverse/docs/docs/newsletter.md",
               "version": "current"
             },
@@ -474,7 +486,7 @@
               "description": "Every internal project and major open-source project has its own style guide: a set of conventions (sometimes arbitrary) about how to write code for that project. It is much easier to understand a large codebase when all the code in it is in a consistent style.",
               "source": "@site/docs/oleic-style-guide.md",
               "slug": "/oleic-style-guide",
-              "permalink": "/docs/oleic-style-guide",
+              "permalink": "/docs/docs/oleic-style-guide",
               "editUrl": "https://github.com/oleicverse/docs/docs/oleic-style-guide.md",
               "version": "current"
             },
@@ -486,7 +498,7 @@
               "description": "1. Background",
               "source": "@site/docs/python-style-guide.md",
               "slug": "/python-style-guide",
-              "permalink": "/docs/python-style-guide",
+              "permalink": "/docs/docs/python-style-guide",
               "editUrl": "https://github.com/oleicverse/docs/docs/python-style-guide.md",
               "version": "current"
             },
@@ -498,7 +510,7 @@
               "description": "To report a copyright infringement, kindly send us an email with your report request at hello@hashnode.com.",
               "source": "@site/docs/report-copyright-infringement.md",
               "slug": "/report-copyright-infringement",
-              "permalink": "/docs/report-copyright-infringement",
+              "permalink": "/docs/docs/report-copyright-infringement",
               "editUrl": "https://github.com/oleicverse/docs/docs/report-copyright-infringement.md",
               "version": "current"
             },
@@ -510,7 +522,7 @@
               "description": "When you create a blog on Hashnode, you have total control over your blog's SEO. You can customize your meta tags, add keywords, automatically generate sitemaps, add your blog to search engines, and optimize your SEO presence.",
               "source": "@site/docs/seo.md",
               "slug": "/seo",
-              "permalink": "/docs/seo",
+              "permalink": "/docs/docs/seo",
               "editUrl": "https://github.com/oleicverse/docs/docs/seo.md",
               "version": "current"
             },
@@ -522,7 +534,7 @@
               "description": "With our Static Pages feature, you can create extra pages and routes (e.g., /about) for your blog.",
               "source": "@site/docs/static-pages.md",
               "slug": "/static-pages",
-              "permalink": "/docs/static-pages",
+              "permalink": "/docs/docs/static-pages",
               "editUrl": "https://github.com/oleicverse/docs/docs/static-pages.md",
               "version": "current"
             },
@@ -534,7 +546,7 @@
               "description": "In the Hashnode editor, start typing in the text field to select some tags in the Select tags section at the editor's top-right sidebar on your desktop or bottom corner of the editor on your mobile screen.",
               "source": "@site/docs/tags.md",
               "slug": "/tags",
-              "permalink": "/docs/tags",
+              "permalink": "/docs/docs/tags",
               "editUrl": "https://github.com/oleicverse/docs/docs/tags.md",
               "version": "current"
             },
@@ -546,7 +558,7 @@
               "description": "Add New Members",
               "source": "@site/docs/teams-blog-settings.md",
               "slug": "/teams-blog-settings",
-              "permalink": "/docs/teams-blog-settings",
+              "permalink": "/docs/docs/teams-blog-settings",
               "editUrl": "https://github.com/oleicverse/docs/docs/teams-blog-settings.md",
               "version": "current"
             },
@@ -558,7 +570,7 @@
               "description": "Thank you for using Oleic! We're happy you're here. Please read this Terms of Service agreement carefully before accessing or using Oleic. Because it is such an important contract between us and our users, we have tried to make it as clear as possible. For your convenience, we have presented these terms in a short non-binding summary followed by the full legal terms.",
               "source": "@site/docs/terms-of-service.md",
               "slug": "/terms-of-service",
-              "permalink": "/docs/terms-of-service",
+              "permalink": "/docs/docs/terms-of-service",
               "editUrl": "https://github.com/oleicverse/docs/docs/terms-of-service.md",
               "version": "current"
             },
@@ -570,7 +582,7 @@
               "description": "Hashnode is a free developer blogging platform that allows you to publish articles on your domain and helps you stay connected with a global developer community.",
               "source": "@site/docs/using-hashnode.md",
               "slug": "/",
-              "permalink": "/docs/",
+              "permalink": "/docs/docs/",
               "editUrl": "https://github.com/oleicverse/docs/docs/using-hashnode.md",
               "version": "current"
             },
@@ -582,7 +594,7 @@
               "description": "Widgets are regular embeds that can be inserted anywhere in your articles. This feature allows you to embed any third party widget (embeds/iframes outside the (embeds we support by default) inside your articles with no limitations.",
               "source": "@site/docs/widgets.md",
               "slug": "/widgets",
-              "permalink": "/docs/widgets",
+              "permalink": "/docs/docs/widgets",
               "editUrl": "https://github.com/oleicverse/docs/docs/widgets.md",
               "version": "current"
             },
@@ -594,7 +606,7 @@
               "description": "Here is how to write a post on Hashnode:",
               "source": "@site/docs/write-an-article.md",
               "slug": "/write-an-article",
-              "permalink": "/docs/write-an-article",
+              "permalink": "/docs/docs/write-an-article",
               "editUrl": "https://github.com/oleicverse/docs/docs/write-an-article.md",
               "version": "current"
             }
@@ -609,7 +621,7 @@
         {
           "id": "welcome",
           "metadata": {
-            "permalink": "/blog/welcome",
+            "permalink": "/docs/blog/welcome",
             "editUrl": "https://github.com/oleicverse/blog/blog/2019-05-30-welcome.md",
             "source": "@site/blog/2019-05-30-welcome.md",
             "description": "Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!",
@@ -617,15 +629,15 @@
             "tags": [
               {
                 "label": "facebook",
-                "permalink": "/blog/tags/facebook"
+                "permalink": "/docs/blog/tags/facebook"
               },
               {
                 "label": "hello",
-                "permalink": "/blog/tags/hello"
+                "permalink": "/docs/blog/tags/hello"
               },
               {
                 "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
+                "permalink": "/docs/blog/tags/docusaurus"
               }
             ],
             "title": "Welcome",
@@ -633,14 +645,14 @@
             "truncated": false,
             "nextItem": {
               "title": "Hello",
-              "permalink": "/blog/hello-world"
+              "permalink": "/docs/blog/hello-world"
             }
           }
         },
         {
           "id": "hello-world",
           "metadata": {
-            "permalink": "/blog/hello-world",
+            "permalink": "/docs/blog/hello-world",
             "editUrl": "https://github.com/oleicverse/blog/blog/2019-05-29-hello-world.md",
             "source": "@site/blog/2019-05-29-hello-world.md",
             "description": "Welcome to this blog. This blog is created with Docusaurus 2 alpha.",
@@ -648,11 +660,11 @@
             "tags": [
               {
                 "label": "hello",
-                "permalink": "/blog/tags/hello"
+                "permalink": "/docs/blog/tags/hello"
               },
               {
                 "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
+                "permalink": "/docs/blog/tags/docusaurus"
               }
             ],
             "title": "Hello",
@@ -660,18 +672,18 @@
             "truncated": true,
             "prevItem": {
               "title": "Welcome",
-              "permalink": "/blog/welcome"
+              "permalink": "/docs/blog/welcome"
             },
             "nextItem": {
               "title": "Hola",
-              "permalink": "/blog/hola"
+              "permalink": "/docs/blog/hola"
             }
           }
         },
         {
           "id": "hola",
           "metadata": {
-            "permalink": "/blog/hola",
+            "permalink": "/docs/blog/hola",
             "editUrl": "https://github.com/oleicverse/blog/blog/2019-05-28-hola.md",
             "source": "@site/blog/2019-05-28-hola.md",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
@@ -679,11 +691,11 @@
             "tags": [
               {
                 "label": "hola",
-                "permalink": "/blog/tags/hola"
+                "permalink": "/docs/blog/tags/hola"
               },
               {
                 "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
+                "permalink": "/docs/blog/tags/docusaurus"
               }
             ],
             "title": "Hola",
@@ -691,7 +703,7 @@
             "truncated": false,
             "prevItem": {
               "title": "Hello",
-              "permalink": "/blog/hello-world"
+              "permalink": "/docs/blog/hello-world"
             }
           }
         }
@@ -699,7 +711,7 @@
       "blogListPaginated": [
         {
           "metadata": {
-            "permalink": "/blog",
+            "permalink": "/docs/blog",
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 1,
@@ -722,7 +734,7 @@
           "items": [
             "welcome"
           ],
-          "permalink": "/blog/tags/facebook"
+          "permalink": "/docs/blog/tags/facebook"
         },
         "hello": {
           "name": "hello",
@@ -730,7 +742,7 @@
             "welcome",
             "hello-world"
           ],
-          "permalink": "/blog/tags/hello"
+          "permalink": "/docs/blog/tags/hello"
         },
         "docusaurus": {
           "name": "docusaurus",
@@ -739,24 +751,24 @@
             "hello-world",
             "hola"
           ],
-          "permalink": "/blog/tags/docusaurus"
+          "permalink": "/docs/blog/tags/docusaurus"
         },
         "hola": {
           "name": "hola",
           "items": [
             "hola"
           ],
-          "permalink": "/blog/tags/hola"
+          "permalink": "/docs/blog/tags/hola"
         }
       },
-      "blogTagsListPath": "/blog/tags"
+      "blogTagsListPath": "/docs/blog/tags"
     }
   },
   "docusaurus-plugin-content-pages": {
     "default": [
       {
         "type": "jsx",
-        "permalink": "/",
+        "permalink": "/docs/",
         "source": "@site/src/pages/index.js"
       }
     ]

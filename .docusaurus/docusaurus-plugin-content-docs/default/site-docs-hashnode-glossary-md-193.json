@@ -6,7 +6,7 @@
   "description": "Reaction",
   "source": "@site/docs/hashnode-glossary.md",
   "slug": "/hashnode-glossary",
-  "permalink": "/docs/hashnode-glossary",
+  "permalink": "/docs/docs/hashnode-glossary",
   "editUrl": "https://github.com/oleicverse/docs/docs/hashnode-glossary.md",
   "version": "current"
 }

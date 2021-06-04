@@ -6,7 +6,7 @@
   "description": "Here is how to find and edit a draft on Hashnode:",
   "source": "@site/docs/edit-drafts.md",
   "slug": "/edit-drafts",
-  "permalink": "/docs/edit-drafts",
+  "permalink": "/docs/docs/edit-drafts",
   "editUrl": "https://github.com/oleicverse/docs/docs/edit-drafts.md",
   "version": "current"
 }

@@ -46,12 +46,12 @@ const features = [
     title: 'Guidelines',
     description: (
       <>
-        <li><a href = "docs/guidelines/oleic-style-guide">Oleic Style Guidelines</a></li>
-        <li><a href = "docs/guidelines/python-style-guide">Python Style Guide</a></li>
-        <li><a href = "docs/guidelines/general-settings">HTML/CSS Style Guide</a></li>
-        <li><a href = "docs/guidelines/github-backup">JavaScript Style Guide</a></li> 
-        <li><a href = "docs/guidelines/github-backup">TypeScript Style Guide</a></li> 
-        <li><a href = "docs/guidelines/github-backup">AngularJS Style Guide</a></li> 
+        <li><Link href = "docs/guidelines/oleic-style-guide">Oleic Style Guidelines</Link></li>
+        <li><Link href = "docs/guidelines/python-style-guide">Python Style Guide</Link></li>
+        <li><Link href = "docs/guidelines/general-settings">HTML/CSS Style Guide</Link></li>
+        <li><Link href = "docs/guidelines/github-backup">JavaScript Style Guide</Link></li>
+        <li><Link href = "docs/guidelines/github-backup">TypeScript Style Guide</Link></li>
+        <li><Link href = "docs/guidelines/github-backup">AngularJS Style Guide</Link></li>
       </>
     ),
   },

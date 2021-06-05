@@ -32,7 +32,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/oleicverse',
+          editUrl: 'https://github.com/Oleicverse/docs/tree/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

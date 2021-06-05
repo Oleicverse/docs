@@ -2,6 +2,7 @@
 id: arcade-privacy-policy
 title: Arcade Privacy Policy
 ---
+** Updated June 1, 2021 **
 
 Thank you for choosing to be the part of our community at Oleic Technologies Private Limited and its subsidaries, doing business as Oleic Arcade (“Oleic Arcade”, “Arcade”, “we”, “us”, “our”, “the Company”). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy policy or our practices with regards to your personal information, please contact us at privacy@oleic.co.
 

@@ -1,8 +1,8 @@
 module.exports = {
   title: 'Oleic Documentation',
-  url: 'oleicverse.github.io',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
+  url: 'https://docs.oleic.co',
+  baseUrl: '/docs/',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'src/oleic-fav.ico',
   organizationName: 'oleicverse', // Usually your GitHub org/user name.
@@ -73,17 +73,15 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/oleicverse/docs',
+            'https://docs.oleic.co/',
         },
-        blog: {
-          showReadingTime: true,
+        // blog: {
+          // showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/oleicverse/blog/',
-        },
+          // editUrl:
+           //'https://github.com/oleicverse/blog/',
+        //},
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },

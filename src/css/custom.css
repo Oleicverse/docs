@@ -1,34 +1,36 @@
 @font-face {
   font-family: 'Archia';
-  src: url(../fonts/Archia/archia-bold-webfont.woff2) format('woff2');
   font-style: bold;
-}
+  font-weight: 800;
 
-@font-face {
-  font-family: 'Archia';
-  font-style: normal;
-  src: url(../fonts/Archia/archia-medium-webfont.woff2) format('woff2');
+  src: local('Archia'), local('archia-bold'), url(/src/fonts/Archia/archia-bold-webfont.woff2) format('woff');
 
 }
-
 @font-face {
   font-family: 'Archia';
   font-style: medium;
-  src: url(../fonts/Archia/archia-semibold-webfont.woff2) format('woff2');
-}
+  font-weight: 400;
 
-body {
-  font-family: "Archia";
+  src: local('Archia'), local('archia-medium'), url(/src/fonts/Archia/archia-medium-webfont.woff2) format('woff');
+
+}
+@font-face {
+  font-family: 'Archia';
+  font-weight: 600;
+
+  src: local('Archia'), local('archia-semibold'), url(/src/fonts/Archia/archia-semibold-webfont.woff2) format('woff');
+
 }
 
 :root {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  
+  --ifm-color-primary: #0366D6;
+  --ifm-color-primary-dark: #005CC5;
+  --ifm-color-primary-darker: #008CFF;
+  --ifm-color-primary-darkest: #008CFF;
+  --ifm-color-primary-light: #79B8FF;
+  --ifm-color-primary-lighter: #C8E1FF;
+  --ifm-color-primary-lightest: #C8E1FF;
   --ifm-code-font-size: 95%;
 }
 
@@ -37,4 +39,70 @@ body {
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+}
+
+
+body{
+  font-family: 'Archia', sans-serif;
+  font-weight: 400;
+}
+
+.navbar{
+  padding-top: 16px;
+  padding-bottom: 16px;
+  height: auto;
+}
+
+.navbar__link{
+  font-family: 'Archia', sans-serif;
+  padding: 4px 8px;
+  display: block;
+  margin-right: 10px;
+  height: auto;
+  border-radius: 8px;
+  letter-spacing: -.25px;
+  font-weight: 600;
+}
+
+.navbar__link:hover{
+  background-color: #F7FAFC;
+}
+
+.Edit this page on GitHub{
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.hero{
+  /* border-bottom: 1px solid #ddd; */
+}
+
+.main-container{
+  font-family: 'Archia', sans-serif;
+
+  padding-top: 0;
+  padding-bottom: 48px;
+}
+
+footer{
+  font-family: 'Archia', sans-serif;
+  font-size: small;
+  background: #F7FAFC;
+}
+
+.navbar-sidebar{
+  box-shadow: none;
+}
+
+.homepage-img{
+  height: 100px;
+  width: 100px;
+}
+
+@media (max-width: 425px){
+  .navbar__items{
+    margin-bottom: 10px;
+  }
 }

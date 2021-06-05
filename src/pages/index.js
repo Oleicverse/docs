@@ -11,10 +11,10 @@ const features = [
     title: 'Getting Started',
     description: (
       <>
-        <li><a href = "docs/">Using Hashnode</a></li>
-        <li><a href = "docs/hashnode-glossary">Hashnode Glossary</a></li>
-        <li><a href = "docs/create-personal-blog">Create Personal Blog</a></li>
-        <li><a href = "docs/bug-reports-and-feature-request">Bug Reports and Feature Requests</a></li>
+        <li><Link to="docs/">Using Hashnode</Link></li>
+        <li><Link to="docs/hashnode-glossary">Hashnode Glossary</Link></li>
+        <li><Link to="docs/create-personal-blog">Create Personal Blog</Link></li>
+        <li><Link to="docs/bug-reports-and-feature-request">Bug Reports and Feature Requests</Link></li>
 
       </>
     ),
@@ -23,10 +23,10 @@ const features = [
     title: 'Phase 1',
     description: (
       <>
-       <li><a href = "docs/mapping-domain">Introduction</a></li>
-        <li><a href = "docs/mapping-godaddy">Mapping From GoDaddy</a></li>
-        <li><a href = "docs/mapping-cloudflare">Mapping From Cloudflare</a></li>
-        <li><a href = "docs/mapping-namecheap">Mapping From Namecheap</a></li>
+       <li><Link to="docs/mapping-domain">Introduction</Link></li>
+        <li><Link to="docs/mapping-godaddy">Mapping From GoDaddy</Link></li>
+        <li><Link to="docs/mapping-cloudflare">Mapping From Cloudflare</Link></li>
+        <li><Link to="docs/mapping-namecheap">Mapping From Namecheap</Link></li>
       </>
     ), 
   },
@@ -35,10 +35,10 @@ const features = [
     description: (
       <>
     
-        <li><a href = "docs/write-an-article">Write and Article</a></li>
-        <li><a href = "docs/markdown-guidelines">Markdown Guidelines</a></li>
-        <li><a href = "docs/edit-article">Edit Published Article </a></li>
-        <li><a href = "docs/edit-drafts">Edit Drafts </a></li>
+        <li><Link to="docs/write-an-article">Write and Article</Link></li>
+        <li><Link to="docs/markdown-guidelines">Markdown Guidelines</Link></li>
+        <li><Link to="docs/edit-article">Edit Published Article </Link></li>
+        <li><Link to="docs/edit-drafts">Edit Drafts </Link></li>
       </>
     ), 
   },
@@ -59,8 +59,8 @@ const features = [
     title: 'Safety & Policies',
     description: (
       <>
-       <li><a href = "docs/terms-of-service">Arcade Terms of Usage</a></li>
-       <li><a href = "docs/arcade-privacy-policy">Arcade Privacy Policy</a></li>
+       <li><Link to="docs/terms-of-service">Arcade Terms of Usage</Link></li>
+       <li><Link to="docs/arcade-privacy-policy">Arcade Privacy Policy</Link></li>
      </>
     ), 
   },
@@ -68,11 +68,11 @@ const features = [
     title: 'Frequently Asked Questions',
   description: (
       <>
-    
-        <li><a href = "docs/faqs#how-can-i-save-a-draft-on-hashnode">How can I save a draft on Hashnode?</a></li>
-        <li><a href = "docs/faqs#whats-an-impressum">What's an Impressum?</a></li>
-        <li><a href = "docs/faqs#which-embeds-are-supported-by-hashnode">Which embeds are supported by Hashnode?</a></li>
-        <li><a href = "docs/faqs#how-can-i-set-a-canonical-url">How can I set a canonical URL?</a></li>
+
+        <li><Link to="docs/faqs#how-can-i-save-a-draft-on-hashnode">How can I save a draft on Hashnode?</Link></li>
+        <li><Link to="docs/faqs#whats-an-impressum">What's an Impressum?</Link></li>
+        <li><Link to="docs/faqs#which-embeds-are-supported-by-hashnode">Which embeds are supported by Hashnode?</Link></li>
+        <li><Link to="docs/faqs#how-can-i-set-a-canonical-url">How can I set a canonical URL?</Link></li>
       
       </>
     ), 

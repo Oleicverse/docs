@@ -12,7 +12,10 @@ module.exports = {
       title: '',
       logo: {
         alt: 'Oleic logo',
-        src: 'img/logo1.svg',
+        src: 'img/logo2.svg',
+
+        srcDark:
+        "img/logo1.svg",
       },
       items: [
 

@@ -91,12 +91,15 @@ function Feature({ title, description}) {
 function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
+  console.log(styles)
   return (
     <Layout
       >
       <header className={clsx('hero', styles.heroBanner)}>
         <div className="container">
-          <img className="homepage-img" src="https://ghicons.github.com/assets/images/blue/png/Skywalker.png"/> 
+          <img
+            className={styles.homepageImg}
+            src="https://ghicons.github.com/assets/images/blue/png/Skywalker.png"/>
           <h1  className="hero__title">How can we help?</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
         </div>

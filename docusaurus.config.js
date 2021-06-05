@@ -2,7 +2,7 @@ module.exports = {
   title: 'Oleic Documentation',
   url: 'https://docs.oleic.co',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'oleicverse', // Usually your GitHub org/user name.

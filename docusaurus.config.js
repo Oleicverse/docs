@@ -4,7 +4,7 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.svg',
   organizationName: 'oleicverse', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
   themeConfig: {
@@ -12,7 +12,7 @@ module.exports = {
       title: '',
       logo: {
         alt: 'Oleic logo',
-        src: 'img/logo.png',
+        src: 'img/logo.svg',
       },
       items: [
 

@@ -1,10 +1,10 @@
 module.exports = {
   title: 'Oleic Documentation',
-  url: 'oleicverse.github.io',
-  baseUrl: '/docs/',
+  url: 'https://docs.oleic.co',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'src/oleic-fav.ico',
+  favicon: 'img/favicon.ico',
   organizationName: 'oleicverse', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
   themeConfig: {
@@ -12,59 +12,17 @@ module.exports = {
       title: '',
       logo: {
         alt: 'Oleic logo',
-        src: 'src/oleic-docs.png',
+        src: 'img/logo.png',
       },
       items: [
-        
+
       ],
     },
     footer: {
       style: 'light',
-      /* links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Style Guide',
-              to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-          ],
-        },
-      ], */
+      links: [
+
+      ],
       copyright: `© ${new Date().getFullYear()} Oleic | Dare Mighty Things`,
     },
   },
@@ -74,15 +32,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/oleicverse/docs',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/oleicverse/blog/',
+          editUrl: 'https://github.com/oleicverse',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

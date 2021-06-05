@@ -46,12 +46,12 @@ const features = [
     title: 'Guidelines',
     description: (
       <>
-        <li><a href = "docs/oleic-style-guide">Oleic Style Guidelines</a></li>
-        <li><a href = "docs/python-style-guide">Python Style Guide</a></li>
-        <li><a href = "docs/general-settings">HTML/CSS Style Guide</a></li>
-        <li><a href = "docs/github-backup">JavaScript Style Guide</a></li> 
-        <li><a href = "docs/github-backup">TypeScript Style Guide</a></li> 
-        <li><a href = "docs/github-backup">AngularJS Style Guide</a></li> 
+        <li><a href = "docs/guidelines/oleic-style-guide">Oleic Style Guidelines</a></li>
+        <li><a href = "docs/guidelines/python-style-guide">Python Style Guide</a></li>
+        <li><a href = "docs/guidelines/general-settings">HTML/CSS Style Guide</a></li>
+        <li><a href = "docs/guidelines/github-backup">JavaScript Style Guide</a></li> 
+        <li><a href = "docs/guidelines/github-backup">TypeScript Style Guide</a></li> 
+        <li><a href = "docs/guidelines/github-backup">AngularJS Style Guide</a></li> 
       </>
     ),
   },
@@ -59,11 +59,9 @@ const features = [
     title: 'Safety & Policies',
     description: (
       <>
-       <li><a href = "docs/terms-of-service">Terms</a></li>
-       <li><a href = "docs/community-code-of-conduct">Community Code of Conduct</a></li>
-        <li><a href = "docs/report-copyright-infringement">Report Copyright Infringement</a></li>
-        <li><a href = "docs/report-posts-and-users#report-users">Report Users</a></li>
-      </>
+       <li><a href = "docs/terms-of-service">Arcade Terms of Usage</a></li>
+       <li><a href = "docs/arcade-privacy-policy">Arcade Privacy Policy</a></li>
+     </>
     ), 
   },
   {

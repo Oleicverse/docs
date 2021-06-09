@@ -69,10 +69,7 @@ const features = [
   description: (
       <>
 
-        <li><Link to="docs/faqs#how-can-i-save-a-draft-on-hashnode">How can I save a draft on Hashnode?</Link></li>
-        <li><Link to="docs/faqs#whats-an-impressum">What's an Impressum?</Link></li>
-        <li><Link to="docs/faqs#which-embeds-are-supported-by-hashnode">Which embeds are supported by Hashnode?</Link></li>
-        <li><Link to="docs/faqs#how-can-i-set-a-canonical-url">How can I set a canonical URL?</Link></li>
+        <li><Link to="docs/faqs/phonepe-faqs">FAQs for Phonepe</Link></li>
       
       </>
     ), 

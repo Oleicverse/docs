@@ -2,7 +2,7 @@
 id: arcade-privacy-policy
 title: Arcade Privacy Policy
 ---
-** Updated June 1, 2021 **
+** Updated June 10, 2021 **
 
 Thank you for choosing to be the part of our community at Oleic Technologies Private Limited and its subsidaries, doing business as Oleic Arcade (“Oleic Arcade”, “Arcade”, “we”, “us”, “our”, “the Company”). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy policy or our practices with regards to your personal information, please contact us at privacy@oleic.co.
 
@@ -21,6 +21,12 @@ We automatically collect certain information when you visit, use or navigate our
 
 The information we collect includes:
   * ** Log and Usage Data: ** Log and usage data is service-related, diagnostic, usage, and performance information our servers automatically collect when you access or use our Website and Service and which we record in log files. Depending on how you interact with us, this log data may include your IP address, device information, browser type, and settings and information about your activity on the Website or Service (such as date/time stamps associated with your usage, pages and files viewed, searches and other actions you take such as which features you use), device event information (such as system activity, error reports (sometimes called ‘crash dumps’) and hardware settings).
+
+### 1.2 Information we collect 
+
+** In short: ** Some informtion- such as game-play data is collected when you use our Service.
+
+We log game-play data such as score, game status, game-id, session-id, to track which game is being played and what is the status of the player. This information is sent to us anonymously and is not linked with the user's identity. We use this information to maintain the security and operation of our Services and for our internal analytics and reporting purposes.
 
 ## 2. How do we use your information
 

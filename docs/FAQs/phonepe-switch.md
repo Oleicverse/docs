@@ -1,9 +1,10 @@
 ---
-id: phonepe-faqs
-title: PhonePe FAQs
+id: phonepe-switch 
+title: Frequently Asked Questions  
 ---
+**These FAQs applies to Arcade on PhonePe Switch**
 
-
+** Last Updated: 10 June 2021 **
 ### 1. Are your games free to use for me?
 
 Yes, all our users on PhonePe Switch can play these games for free. 

@@ -69,7 +69,7 @@ const features = [
   description: (
       <>
 
-        <li><Link to="docs/faqs/phonepe-faqs">FAQs for Phonepe</Link></li>
+        <li><Link to="docs/faqs/phonepe-switch">FAQs for PhonePe Switch</Link></li>
       
       </>
     ), 

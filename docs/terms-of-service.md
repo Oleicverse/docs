@@ -164,12 +164,6 @@ These Terms shall be governed by and defined following the laws of India. Oleic 
 
 ### DISPUTE RESOLUTION
 
-
-### Binding Arbitration
-
-Any dispute arising out of or in connection with this contract, including any question regarding its existence, validity, or termination, shall be referred to and finally resolved by the International Commercial Arbitration Court under the European Arbitration Chamber (Belgium, Brussels, Avenue Louise, 146) according to the Rules of this ICAC, which, as a result of referring to it, is considered as the part of this clause. The number of arbitrators shall be __________. The seat, or legal place, of arbitration shall be __________. The language of the proceedings shall be __________. The governing law of the contract shall be the substantive law of __________.
-
-
 ### Restrictions
 
 The Parties agree that any arbitration shall be limited to the Dispute between the Parties individually. To the full extent permitted by law, (a) no arbitration shall be joined with any other proceeding; (b) there is no right or authority for any Dispute to be arbitrated on a class-action basis or to utilize class action procedures; (c) there is no right or authority for any Dispute to be brought in a purported representative capacity on behalf of the general public or any other persons.
